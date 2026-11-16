@@ -1,0 +1,80 @@
+{
+  "selected_at": "2026-11-16",
+  "chosen_config": "A2_hybrid_n1",
+  "baseline": "A0_dense",
+  "model": "gpt-4.1-mini",
+  "criteria_file": "results/selection_criteria.json",
+  "reasoning": [
+    "Tiêu chí 1 grounded mean dev: A2 2.00 > A1/A3/A4 1.93 > A0 1.87",
+    "Robust: nếu chấm q10 khắt khe cho cả A0/A2 (xuống 1) thì A2 = 1.93 hòa A1/A3/A4 (chênh < 0.1) -> tiêu chí 2 hòa (abst 2/3, false 0/15) -> tiêu chí 3 hòa (ctx 15/15) -> tiêu chí 4 A2 nhanh nhất (median 2.5 s vs 3.7-4.3 s)",
+    "Retrieval-only dev: hybrid RRF + neighbour, 4500 ký tự: Hit@3 14/15, Context Evidence 15/15"
+  ],
+  "dev_scores": {
+    "A0_dense": {
+      "grounded_mean": 1.8666666666666667,
+      "context_evidence": "11/15",
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 1,
+        "N": 15
+      },
+      "mean_latency_s": 2.69
+    },
+    "A1_rerank_n1": {
+      "grounded_mean": 1.9333333333333333,
+      "context_evidence": "15/15",
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "mean_latency_s": 5.47
+    },
+    "A2_hybrid_n1": {
+      "grounded_mean": 2.0,
+      "context_evidence": "15/15",
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "mean_latency_s": 3.0
+    },
+    "A3_rerank_n1_1s": {
+      "grounded_mean": 1.9333333333333333,
+      "context_evidence": "15/15",
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "mean_latency_s": 14.57
+    },
+    "A4_rerank_n1_link": {
+      "grounded_mean": 1.9333333333333333,
+      "context_evidence": "15/15",
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "mean_latency_s": 4.85
+    }
+  },
+  "note": "Nhãn dev q10 (A1/A3/A4 = 1) đang chờ học viên xác nhận; lựa chọn không đổi theo nhãn này."
+}

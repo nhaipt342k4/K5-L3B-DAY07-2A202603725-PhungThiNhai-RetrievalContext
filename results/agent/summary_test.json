@@ -1,0 +1,122 @@
+{
+  "A0_dense": {
+    "auto": {
+      "runs": 7,
+      "errors": 0,
+      "tool_use": "7/7",
+      "searches_distribution": {
+        "1": 4,
+        "2": 1,
+        "3": 2
+      },
+      "mean_searches": 1.71,
+      "mean_llm_calls": 2.71,
+      "context_evidence": "4/5",
+      "context_evidence_missing": [
+        "t7-04"
+      ],
+      "mean_context_chars": 1919,
+      "answered": 4,
+      "abstained": 3,
+      "stop_reasons": {
+        "answered": 4,
+        "model_abstained": 2,
+        "invalid_or_missing_citations": 1
+      },
+      "mean_latency_s": 10.05,
+      "tokens_in": 16444,
+      "tokens_out": 901,
+      "cost_usd_est_paid_tier": 0.008,
+      "cost_usd_actual": 0
+    },
+    "labels": {
+      "cases": 7,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7
+      },
+      "grounded_answer": {
+        "0": 1,
+        "1": 0,
+        "2": 4,
+        "N": 5,
+        "mean": 1.6
+      },
+      "citation_validity": {
+        "n": 9,
+        "N": 9
+      },
+      "answer_citation_coverage": {
+        "n": 4,
+        "N": 4
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 1,
+        "N": 5
+      }
+    }
+  },
+  "A2_hybrid_n1": {
+    "auto": {
+      "runs": 7,
+      "errors": 0,
+      "tool_use": "7/7",
+      "searches_distribution": {
+        "1": 5,
+        "3": 2
+      },
+      "mean_searches": 1.57,
+      "mean_llm_calls": 2.57,
+      "context_evidence": "5/5",
+      "context_evidence_missing": [],
+      "mean_context_chars": 3558,
+      "answered": 5,
+      "abstained": 2,
+      "stop_reasons": {
+        "answered": 5,
+        "model_abstained": 2
+      },
+      "mean_latency_s": 3.77,
+      "tokens_in": 23439,
+      "tokens_out": 751,
+      "cost_usd_est_paid_tier": 0.0106,
+      "cost_usd_actual": 0
+    },
+    "labels": {
+      "cases": 7,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 5,
+        "N": 5,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 10,
+        "N": 10
+      },
+      "answer_citation_coverage": {
+        "n": 5,
+        "N": 5
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 5
+      }
+    }
+  }
+}

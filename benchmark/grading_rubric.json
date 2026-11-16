@@ -1,0 +1,179 @@
+{
+ "note": "Rubric chấm câu trả lời (dùng SAU khi agent chạy, không đưa vào agent). answer_must: mọi regex phải khớp câu trả lời thì mới được 2 điểm; khớp một phần = 1. support: một citation được tính là hỗ trợ nếu TOÀN VĂN chunk được cite khớp ít nhất một regex (tức chunk thật sự nêu ý đó). Regex không phân biệt hoa thường, so trên văn bản đã chuẩn hóa NFKC + gộp khoảng trắng. Nhãn do rubric tạo chỉ là bản nháp; người chấm đọc lại từng câu và ghi đè khi cần (xem reviews/*.json, trường reviewer_override).",
+ "q01": {
+  "answer_must": [
+   "-?es\\b"
+  ],
+  "support": [
+   "s, sh, ch, x, o"
+  ]
+ },
+ "q02": {
+  "answer_must": [
+   "/j/|phụ âm",
+   "a university"
+  ],
+  "support": [
+   "/j/"
+  ]
+ },
+ "q03": {
+  "answer_must": [
+   "không",
+   "do/does|do hay does|do, does|do và does|do\\b"
+  ],
+  "support": [
+   "do/does"
+  ]
+ },
+ "q04": {
+  "answer_must": [
+   "trước động từ thường",
+   "sau[^.]{0,25}to be"
+  ],
+  "support": [
+   "trước động từ thường"
+  ]
+ },
+ "q05": {
+  "answer_must": [
+   "đơn vị|bottle|loa(f|ves)"
+  ],
+  "support": [
+   "bottle of water|loaves of bread|thêm đơn vị"
+  ]
+ },
+ "q06": {
+  "answer_must": [
+   "bought",
+   "bất quy tắc|không thêm"
+  ],
+  "support": [
+   "buy\\W+bought",
+   "buy là động từ bất quy tắc",
+   "saw, bought"
+  ]
+ },
+ "q07": {
+  "answer_must": [
+   "going to"
+  ],
+  "support": [
+   "going to"
+  ]
+ },
+ "q08": {
+  "answer_must": [
+   "nguyên mẫu|base verb|nguyên thể"
+  ],
+  "support": [
+   "nguyên mẫu không to",
+   "sau modal",
+   "không dùng to"
+  ]
+ },
+ "q09": {
+  "answer_must": [
+   "không"
+  ],
+  "support": [
+   "because và so cùng lúc|một từ nối"
+  ]
+ },
+ "q10": {
+  "answer_must": [
+   "có nền",
+   "xem lại"
+  ],
+  "support": [
+   "13-16 \\| đã có nền"
+  ]
+ },
+ "q11": {
+  "answer_must": [
+   "does he play football"
+  ],
+  "support": [
+   "6 does he play football"
+  ]
+ },
+ "q12": {
+  "answer_must": [
+   "19-20|19 (và|-|đến) 20"
+  ],
+  "support": [
+   "9-11 → ngày 19-20"
+  ]
+ },
+ "q13": {
+  "answer_must": [
+   "umbrella",
+   "\\ban\\b"
+  ],
+  "support": [
+   "15\\. this is ___ umbrella"
+  ]
+ },
+ "q14": {
+  "answer_must": [
+   "nguyên mẫu|base",
+   "did you go"
+  ],
+  "support": [
+   "sau did",
+   "did đã mang dấu hiệu quá khứ"
+  ]
+ },
+ "q15": {
+  "answer_must": [
+   "to be|am/is/are",
+   "-?ing"
+  ],
+  "support": [
+   "to be đã chia|am/is/are \\+ v-ing|am/is/are \\+ verb-ing"
+  ]
+ },
+ "t7-01": {
+  "answer_must": [
+   "will go",
+   "nguyên mẫu|base"
+  ],
+  "support": [
+   "will go|sau will"
+  ]
+ },
+ "t7-02": {
+  "answer_must": [
+   "carefully"
+  ],
+  "support": [
+   "drives carefully",
+   "carefully bổ nghĩa cho động từ drives"
+  ]
+ },
+ "t7-03": {
+  "answer_must": [
+   "không",
+   "ý nghĩa|tạm thời|ngữ cảnh"
+  ],
+  "support": [
+   "xét ý nghĩa|tạm thời quanh hiện tại|không chọn thì chỉ"
+  ]
+ },
+ "t7-04": {
+  "answer_must": [
+   "\\bb\\b|correctly"
+  ],
+  "support": [
+   "4a\\. 5b\\.|he answered the question"
+  ]
+ },
+ "t7-05": {
+  "answer_must": [
+   "24-25|24 (và|-|đến) 25"
+  ],
+  "support": [
+   "4-7 → ngày 24-25"
+  ]
+ }
+}

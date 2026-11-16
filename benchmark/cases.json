@@ -1,0 +1,241 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Động từ tận cùng bằng s, sh, ch, x, o thì thêm gì khi đi với he/she/it ở hiện tại đơn?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Tại sao nói 'an university' là sai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Nếu câu đã có am/is/are làm động từ chính thì khi đặt câu hỏi có cần thêm do/does không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Trạng từ chỉ tần suất đứng ở vị trí nào trong câu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Muốn đếm nước hay bánh mì thì nói thế nào cho đúng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Quá khứ của buy là gì và có thêm -ed không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Khi nói về kế hoạch đã quyết định từ trước thì dùng cấu trúc nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Sau can, should, must thì động từ chia thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Có được dùng cả because và so để nối cùng một cặp nguyên nhân - kết quả không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Làm bài Final Check được 13-16 điểm thì có ý nghĩa gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Đáp án câu 6 của Mini Test tuần 2 là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "page_type": "answer_key"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Ở phần tự chấm tuần 3, nếu sai câu 9-11 thì phải học lại ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "week": 3
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Câu 15 trong Mini Test tuần 1 yêu cầu làm gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "week": 1,
+      "page_type": "mini_test"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Viết 'Did you went...?' sai ở đâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Thì hiện tại tiếp diễn bắt buộc phải có những thành phần nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "t7-01",
+    "split": "test",
+    "question": "Viết 'She will goes' có đúng không? Sau will động từ chia thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "t7-02",
+    "split": "test",
+    "question": "Muốn nói anh ấy lái xe một cách cẩn thận thì dùng careful hay carefully?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "t7-03",
+    "split": "test",
+    "question": "Cứ thấy chữ 'today' trong câu là phải dùng hiện tại tiếp diễn đúng không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": null
+  },
+  {
+    "id": "t7-04",
+    "split": "test",
+    "question": "Đáp án câu 5 của Mini Test tuần 4 là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "page_type": "answer_key"
+    }
+  },
+  {
+    "id": "t7-05",
+    "split": "test",
+    "question": "Ở phần tự chấm tuần 4, nếu sai câu 4-7 thì phải học lại ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "week": 4
+    }
+  },
+  {
+    "id": "u-d01",
+    "split": "dev",
+    "question": "Câu điều kiện loại 1 (If + hiện tại đơn, will + V) dùng khi nào?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu 30 ngày không có bài về câu điều kiện.",
+    "answerable": false,
+    "filter": null,
+    "absence_check": {
+      "điều kiện": 0,
+      "if ": 0,
+      "conditional": 0
+    }
+  },
+  {
+    "id": "u-d02",
+    "split": "dev",
+    "question": "Đại từ quan hệ who và which khác nhau thế nào?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có bài về mệnh đề/đại từ quan hệ.",
+    "answerable": false,
+    "filter": null,
+    "absence_check": {
+      "đại từ quan hệ": 0,
+      "who": 0,
+      "which": 0
+    }
+  },
+  {
+    "id": "u-d03",
+    "split": "dev",
+    "question": "Cấu trúc used to + V dùng để nói về điều gì trong quá khứ?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Gần chủ đề quá khứ (tuần 3) nhưng sách không dạy used to.",
+    "answerable": false,
+    "filter": null,
+    "absence_check": {
+      "used to": 0
+    }
+  },
+  {
+    "id": "u-t01",
+    "split": "test",
+    "question": "Thì hiện tại hoàn thành (have/has + V3) được dùng khi nào?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Sách chỉ dạy hiện tại đơn/tiếp diễn, quá khứ đơn, will, be going to. Phụ lục có nhắc 'go → went → gone' như mẹo học từ, nhưng không có bài/quy tắc hiện tại hoàn thành.",
+    "answerable": false,
+    "filter": null,
+    "absence_check": {
+      "hiện tại hoàn thành": 0,
+      "have been": 0,
+      "has + ": 0,
+      "gone": 1
+    }
+  },
+  {
+    "id": "u-t02",
+    "split": "test",
+    "question": "Câu bị động ở thì quá khứ đơn có công thức như thế nào?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có bài về câu bị động.",
+    "answerable": false,
+    "filter": null,
+    "absence_check": {
+      "bị động": 0,
+      "passive": 0
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "fixed_at": "2026-11-16",
+  "fixed_before": "Viết trước khi chạy agent trên dev; không sửa sau khi xem kết quả agent.",
+  "candidates": [
+    "A0_dense",
+    "A1_rerank_n1",
+    "A2_hybrid_n1",
+    "A3_rerank_n1_1s",
+    "A4_rerank_n1_link"
+  ],
+  "criteria_in_order": [
+    "1. Grounded answer trung bình /2 trên 15 câu dev có đáp án (cao hơn tốt hơn)",
+    "2. Abstention: số câu thiếu evidence được từ chối đúng (3 câu dev) trừ số câu có đáp án bị từ chối nhầm",
+    "3. Context Evidence Rate của context cuối gửi model (dev)",
+    "4. Thời gian trung bình mỗi câu, rồi số token (rẻ/nhanh hơn thắng khi hòa)"
+  ],
+  "tie_rule": "Chênh lệch tiêu chí 1 nhỏ hơn 0.1 được coi là hòa và xét tiếp tiêu chí sau.",
+  "baseline_for_test": "A0_dense luôn được chạy trên test cùng cấu hình đã chọn để so sánh.",
+  "amendment_2026-11-16": "Thêm ứng viên A4 sau khi phân tích lỗi dev q11 (A1/A2 có evidence trong context nhưng model không nối chunk tiêu đề với chunk đáp án). Tiêu chí chọn giữ nguyên; A4 chạy trên toàn bộ 18 câu dev như các cấu hình khác. Test chưa được chạy."
+}

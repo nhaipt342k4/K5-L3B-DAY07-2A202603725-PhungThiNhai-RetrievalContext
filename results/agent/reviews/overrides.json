@@ -1,0 +1,18 @@
+{
+  "dev/A1_rerank_n1/q10": {
+    "answer_grade": 1,
+    "reason": "Claude đọc lại: ý chính đúng (đã có nền, xem lại nhóm câu sai) nhưng trộn lời khuyên 'sửa từng câu sai rồi làm lại sau một ngày' của trang Ôn tập tuần 3 (p27:c02, không phải Final Check) và cite trang đó → đúng một phần. Học viên đã xác nhận 2026-11-16."
+  },
+  "dev/A3_rerank_n1_1s/q10": {
+    "answer_grade": 1,
+    "reason": "Claude đọc lại: ý chính đúng (đã có nền, xem lại nhóm câu sai) nhưng trộn lời khuyên 'sửa từng câu sai rồi làm lại sau một ngày' của trang Ôn tập tuần 3 (p27:c02, không phải Final Check) và cite trang đó → đúng một phần. Học viên đã xác nhận 2026-11-16."
+  },
+  "dev/A4_rerank_n1_link/q10": {
+    "answer_grade": 1,
+    "reason": "Claude đọc lại: ý chính đúng (đã có nền, xem lại nhóm câu sai) nhưng trộn lời khuyên 'sửa từng câu sai rồi làm lại sau một ngày' của trang Ôn tập tuần 3 (p27:c02, không phải Final Check) và cite trang đó → đúng một phần. Học viên đã xác nhận 2026-11-16."
+  },
+  "test/A0_dense/u-t02": {
+    "abstention_correct": true,
+    "reason": "Ca biên: model sinh công thức bị động (kiến thức ngoài) và cite p23:c00 KHÔNG có trong context; hậu kiểm citation chặn và trả 'Không đủ bằng chứng'. Câu trả lời cuối là từ chối, không có khẳng định tới người dùng → tính đúng, ghi chú là nhờ guard. Học viên đã xác nhận 2026-11-16."
+  }
+}

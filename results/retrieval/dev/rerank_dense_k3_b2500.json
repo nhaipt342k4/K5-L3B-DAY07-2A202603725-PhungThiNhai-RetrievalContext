@@ -1,0 +1,998 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Động từ tận cùng bằng s, sh, ch, x, o thì thêm gì khi đi với he/she/it ở hiện tại đơn?",
+    "query_sent": "Động từ tận cùng bằng s, sh, ch, x, o thì thêm gì khi đi với he/she/it ở hiện tại đơn?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 14,
+        "evidence": "Tận cùng s, sh, ch, x, o: thêm -es"
+      }
+    ],
+    "expected_answer": "Thêm -es.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p14:c00",
+        "page": 14,
+        "score": 7.038818,
+        "hit": true,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 2 | Ngày 09 | Bài học | THÊM S/ES VÀO ĐỘNG TỪ] TUẦN 2 • NÓI VỀ HIỆN TẠI THÊM S/ES VÀO ĐỘNG TỪ 25 PHÚT / NGÀY NGÀY 09 • TUẦN 2 THÊM S/ES VÀO ĐỘNG TỪ Mục tiêu: Viết và đọc đúng dạng động từ ngôi thứ ba số ít. Ôn nhanh: Điền dạng đúng: They ___ (study) English every day. HIỂU BẢN CHẤT Đuôi -s/-es đánh dấu ngôi thứ ba số ít trong câu khẳng định hiện tại đơn: he, she, it hoặc danh từ số ít. DÙNG / KHÔNG DÙNG Dùng: Với he/she/it trong câu khẳng định hiện tại đơn Không dùng: Với I/you/we/they hoặc sau does/doesn't So sánh: Lan studies English. | Lan doesn't studies English. CÔNG THỨC he/she/it + verb-s/es QUY TẮC •Phần lớn động từ: thêm -s •Tận cùng s, sh, ch, x, o: thêm -es •Phụ âm + y: y → ies VÍ DỤ He watches TV after dinner. Cậu ấy xem TV sau bữa tối. Lan studies English every day. Lan học tiếng Anh mỗi ngày."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p13:c00",
+        "page": 13,
+        "score": 2.516543,
+        "hit": false,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 2 | Ngày 08 | Bài học | HIỆN TẠI ĐƠN] TUẦN 2 • NÓI VỀ HIỆN TẠI HIỆN TẠI ĐƠN 25 PHÚT / NGÀY NGÀY 08 • TUẦN 2 HIỆN TẠI ĐƠN Mục tiêu: Dùng hiện tại đơn để nói thói quen và sự thật. Ôn nhanh: Sửa lỗi: There are a desk in my room. HIỂU BẢN CHẤT Hiện tại đơn diễn tả thói quen, lịch trình hoặc sự thật ổn định; không nhất thiết là hành động đang xảy ra ngay lúc nói. DÙNG / KHÔNG DÙNG Dùng: Thói quen, lịch trình và sự thật Không dùng: Hành động đang diễn ra ngay lúc nói So sánh: I study every evening. | I am studying right now. CÔNG THỨC S + base verb; he/she/it + verb-s/es QUY TẮC •I/You/We/They: Động từ nguyên mẫu •He/She/It: Động từ thêm s/es •Cách dùng: Thói quen, lịch trình, sự thật VÍ DỤ I walk to school every day. Tôi đi bộ đến trường mỗi ngày. My father works at a hospital. Bố tôi làm việc tại bệnh viện."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p19:c00",
+        "page": 19,
+        "score": 1.521756,
+        "hit": false,
+        "stage_ranks": {
+          "first": 4
+        },
+        "text": "[Tuần 2 | Ngày 14 | Ôn tập] ÔN TẬP • NGÀY 14 / 30 ÔN TẬP TUẦN 2 25 PHÚT GRAMMAR MAP Present → routine/fact OR action now 1 Thói quen Hiện tại đơn cho việc lặp lại. Công thức: S + base verb; he/she/it + verb-s/es Ví dụ: I walk to school every day. Lỗi cần tránh: She study every evening. → She studies every evening. Học lại: Ngày 08 2Ngôi thứ ba He/She/It + động từ s/es. Công thức: he/she/it + verb-s/es Ví dụ: He watches TV after dinner. Lỗi cần tránh: He studys English. → He studies English. Phụ âm + y đổi thành -ies. Học lại: Ngày 09 3Hỏi - phủ định Do/Does + động từ nguyên mẫu. Công thức: S + don't/doesn't + V; Do/Does + S + V? Ví dụ: He doesn't play basketball. Lỗi cần tránh: Does she likes music? → Does she like music? Sau does, dùng động từ nguyên mẫu. Học lại: Ngày 10-11"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p14:c00",
+      "datio-grammar-30d:p13:c00"
+    ],
+    "context_chars": 1815,
+    "context_hit": true,
+    "latency_ms": 1701.2
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tại sao nói 'an university' là sai?",
+    "query_sent": "Tại sao nói 'an university' là sai?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 8,
+        "evidence": "an university → a university vì âm đầu là /j/, một âm phụ âm."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 11,
+        "evidence": "an university → a university vì âm đầu là /j/, một âm phụ âm."
+      }
+    ],
+    "expected_answer": "Vì university bắt đầu bằng âm /j/ là âm phụ âm nên phải dùng a: a university.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p11:c00",
+        "page": 11,
+        "score": 1.980606,
+        "hit": true,
+        "stage_ranks": {
+          "first": 11
+        },
+        "text": "[Tuần 1 | Ngày 07 | Ôn tập] ÔN TẬP • NGÀY 07 / 30 ÔN TẬP TUẦN 1 25 PHÚT GRAMMAR MAP Subject → Verb/to be → Noun/Adjective/Place 1 Câu hoàn chỉnh Chủ ngữ + động từ/to be. Công thức: Subject + Verb (+ Object/Complement) Ví dụ: I study English. Lỗi cần tránh: Sai: My sister very friendly. Đúng: My sister is very friendly. Lý do: Câu miêu tả bằng tính từ cần động từ to be. Học lại: Ngày 01 2To be am/is/are theo chủ ngữ. Công thức: I am; he/she/it is; you/we/they are Ví dụ: I am a student. Lỗi cần tránh: She are thirteen. → She is thirteen. Vì she đi với is. Học lại: Ngày 02-03 3Danh từ a/an và số nhiều. Công thức: a/an + singular noun; noun + s/es Ví dụ: This is an eraser. Lỗi cần tránh: an university → a university vì âm đầu là /j/, một âm phụ âm. Học lại: Ngày 04"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p08:c01",
+        "page": 8,
+        "score": -0.486035,
+        "hit": true,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 1 | Ngày 04 | Bài học | A, AN VÀ DANH TỪ SỐ NHIỀU] 5 TỪ VỰNG book /bʊk/ read a book quyển sách pen /pen/ use a pen bút mực eraser /ɪˈreɪ.zər/ a small eraser cục tẩy ruler /ˈruː.lər/ a long ruler thước kẻ box /bɒks/ a pencil box chiếc hộp PHÁT ÂM: Chọn a/an theo âm, không theo chữ. University bắt đầu bằng âm /j/, nên dùng a. HIỂU SÂU HƠN: Hãy nghe âm đầu thay vì nhìn chữ cái đầu. Số nhiều và a/an là hai quyết định khác nhau. LỖI DỄ MẮC an university → a university vì âm đầu là /j/, một âm phụ âm. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc: TỰ CHẤM CUỐI NGÀY □ Tôi nói được quy tắc bằng lời của mình. □ Tôi làm đúng ít nhất 6/8 câu. □ Tôi đọc to hai câu ví dụ. □ Tôi biết mình cần học lại phần nào. LUYỆN TẬP - 8 CÂU Lưu ý: Làm xong 6 câu tự luyện, hãy tra Đáp án & giải thích ở trang 38. Không xem đáp án trước khi làm."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p08:c02",
+        "page": 8,
+        "score": -1.516112,
+        "hit": false,
+        "stage_ranks": {
+          "first": 16
+        },
+        "text": "[Tuần 1 | Ngày 04 | Bài học | A, AN VÀ DANH TỪ SỐ NHIỀU] A. LÀM CÓ HƯỚNG DẪN - 2 CÂU 1. Chọn đúng: ___ eraser. A. a B. an Đáp án: B. an Vì sao? Eraser bắt đầu bằng âm nguyên âm nên dùng an. 2. Viết dạng số nhiều của class. Đáp án: classes Vì sao? Danh từ kết thúc bằng -ss nên thêm -es. B. TỰ LUYỆN - 6 CÂU 1. ___ eraser: A. a B. an 2. Viết dạng số nhiều của class. 3. Điền is/are: These books ___ new. 4. Sửa lỗi: an university. 5. Viết một câu có số đếm và danh từ số nhiều. 6. Tự viết thêm 1 câu dùng đúng công thức và ít nhất 1 từ trong bảng từ vựng. BÀI LÀM / GHI NHÁP"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p11:c00",
+      "datio-grammar-30d:p08:c01",
+      "datio-grammar-30d:p08:c02"
+    ],
+    "context_chars": 2451,
+    "context_hit": true,
+    "latency_ms": 1624.0
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Nếu câu đã có am/is/are làm động từ chính thì khi đặt câu hỏi có cần thêm do/does không?",
+    "query_sent": "Nếu câu đã có am/is/are làm động từ chính thì khi đặt câu hỏi có cần thêm do/does không?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 7,
+        "evidence": "Nếu câu đã có am/is/are làm động từ chính, chính to be sẽ di chuyển khi đặt câu hỏi; không cần do/does."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 39,
+        "evidence": "Nếu câu đã có am/is/are làm động từ chính, chính to be sẽ di chuyển khi đặt câu hỏi; không cần do/does."
+      }
+    ],
+    "expected_answer": "Không. Chính to be được đưa lên trước chủ ngữ; không cần do/does.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p39:c03",
+        "page": 39,
+        "score": 9.789998,
+        "hit": true,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Ngày 03 | Đáp án] NGÀY 03 1B. 2 Are they ready? 3 No, he isn't. 4 Are you hungry? 5 Câu mẫu: Are you happy today? 6. Câu mẫu: She isn't tired. Đáp án khác vẫn đúng nếu đúng cấu trúc, dùng từ phù hợp và hợp nghĩa. Giải thích trọng tâm: Đối chiếu công thức Phủ định: S + am/is/are + not ... Câu hỏi: Am/Is/Are + S ...?. Nếu câu đã có am/is/are làm động từ chính, chính to be sẽ di chuyển khi đặt câu hỏi; không cần do/does. Với câu tự viết, đáp án khác vẫn đúng nếu đúng cấu trúc và hợp nghĩa."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p07:c01",
+        "page": 7,
+        "score": 8.428389,
+        "hit": true,
+        "stage_ranks": {
+          "first": 9
+        },
+        "text": "[Tuần 1 | Ngày 03 | Bài học | PHỦ ĐỊNH VÀ CÂU HỎI VỚI TO BE] 5 TỪ VỰNG happy /ˈhæp.i/ feel happy vui tired /taɪəd/ feel tired mệt hungry/ˈhʌŋ.ɡri/ get hungry đói busy /ˈbɪz.i/ be busy bận ready /ˈred.i/ get ready sẵn sàng PHÁT ÂM: Câu hỏi Yes/No thường lên giọng ở cuối: Are you READY? HIỂU SÂU HƠN: Nếu câu đã có am/is/are làm động từ chính, chính to be sẽ di chuyển khi đặt câu hỏi; không cần do/does. LỖI DỄ MẮC Không dùng do/does với to be: Do you are busy? → Are you busy? VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc: TỰ CHẤM CUỐI NGÀY □ Tôi nói được quy tắc bằng lời của mình. □ Tôi làm đúng ít nhất 6/8 câu. □ Tôi đọc to hai câu ví dụ. □ Tôi biết mình cần học lại phần nào. LUYỆN TẬP - 8 CÂU Lưu ý: Làm xong 6 câu tự luyện, hãy tra Đáp án & giải thích ở trang 38. Không xem đáp án trước khi làm."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p07:c00",
+        "page": 7,
+        "score": 6.176529,
+        "hit": false,
+        "stage_ranks": {
+          "first": 4
+        },
+        "text": "[Tuần 1 | Ngày 03 | Bài học | PHỦ ĐỊNH VÀ CÂU HỎI VỚI TO BE] TUẦN 1 • XÂY CÂU ĐÚNG PHỦ ĐỊNH VÀ CÂU HỎI VỚI TO BE 25 PHÚT / NGÀY NGÀY 03 • TUẦN 1 PHỦ ĐỊNH VÀ CÂU HỎI VỚI TO BE Mục tiêu: Tạo câu phủ định và nghi vấn với am/is/are. Ôn nhanh: Điền am/is/are: My classmates ___ friendly. HIỂU BẢN CHẤT Khi câu có am/is/are, chính to be tạo phủ định và câu hỏi. Chỉ cần thêm not hoặc đổi vị trí, không thêm do/does. DÙNG / KHÔNG DÙNG Dùng: Hỏi hoặc phủ định câu có động từ chính là to be Không dùng: Ghép do/does với am/is/are So sánh: Are you tired? | Do you are tired? CÔNG THỨC Phủ định: S + am/is/are + not ... Câu hỏi: Am/Is/Are + S ...? QUY TẮC •Phủ định: Thêm not sau to be •Câu hỏi: Đưa to be lên trước chủ ngữ •Trả lời ngắn: Yes, S + be. / No, S + be + not. VÍ DỤ She isn't tired. Cô ấy không mệt. Are you ready? Bạn sẵn sàng chưa?"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p39:c03",
+      "datio-grammar-30d:p07:c01",
+      "datio-grammar-30d:p07:c00"
+    ],
+    "context_chars": 2404,
+    "context_hit": true,
+    "latency_ms": 1721.8
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trạng từ chỉ tần suất đứng ở vị trí nào trong câu?",
+    "query_sent": "Trạng từ chỉ tần suất đứng ở vị trí nào trong câu?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 16,
+        "evidence": "Trạng từ tần suất đứng trước động từ thường nhưng đứng sau to be."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 40,
+        "evidence": "Trạng từ tần suất đứng trước động từ thường nhưng đứng sau to be."
+      }
+    ],
+    "expected_answer": "Đứng trước động từ thường nhưng đứng sau to be.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p16:c01",
+        "page": 16,
+        "score": 1.967317,
+        "hit": true,
+        "stage_ranks": {
+          "first": 5
+        },
+        "text": "[Tuần 2 | Ngày 11 | Bài học | TRẠNG TỪ CHỈ TẦN SUẤT] VÍ DỤ I usually do my homework after dinner. Tôi thường làm bài tập sau bữa tối. She is never late. Cô ấy không bao giờ đến muộn. 5 TỪ VỰNG always /ˈɔːl.weɪz/ always remember luôn luôn usually /ˈjuː.ʒu.ə.li/usually go thường often /ˈɒf.ən/ often read thường xuyên sometimes/ˈsʌm.taɪmz/sometimes play đôi khi never /ˈnev.ər/ never forget không bao giờ PHÁT ÂM: Nhấn âm đầu trong ALways, Usually, OFten, NEver. HIỂU SÂU HƠN: Trạng từ tần suất đứng trước động từ thường nhưng đứng sau to be. Vị trí của nó quan trọng hơn việc dịch từng từ. LỖI DỄ MẮC She goes always to school early. → She always goes to school early. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc:"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p40:c05",
+        "page": 40,
+        "score": 0.378949,
+        "hit": true,
+        "stage_ranks": {
+          "first": 3
+        },
+        "text": "[Ngày 11 | Đáp án] NGÀY 11 1 I usually have breakfast at home. 2 She is always friendly. 3 Do they often revise together? 4 He never arrives late. 5 Câu mẫu: I often read books. I never play games at school. 6. Câu mẫu: I usually do my homework after dinner. Đáp án khác vẫn đúng nếu đúng cấu trúc, dùng từ phù hợp và hợp nghĩa. Giải thích trọng tâm: Đối chiếu công thức S + adverb + main verb; S + be + adverb. Trạng từ tần suất đứng trước động từ thường nhưng đứng sau to be. Vị trí của nó quan trọng hơn việc dịch từng từ. Với câu tự viết, đáp án khác vẫn đúng nếu đúng cấu trúc và hợp nghĩa."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p16:c00",
+        "page": 16,
+        "score": -0.669242,
+        "hit": false,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 2 | Ngày 11 | Bài học | TRẠNG TỪ CHỈ TẦN SUẤT] TUẦN 2 • NÓI VỀ HIỆN TẠI TRẠNG TỪ CHỈ TẦN SUẤT 25 PHÚT / NGÀY NGÀY 11 • TUẦN 2 TRẠNG TỪ CHỈ TẦN SUẤT Mục tiêu: Đặt đúng always, usually, often, sometimes, never. Ôn nhanh: Sửa lỗi: Does Lan studies at night? HIỂU BẢN CHẤT Trạng từ tần suất cho biết hành động xảy ra thường xuyên đến mức nào. Chúng đứng trước động từ thường nhưng sau to be. DÙNG / KHÔNG DÙNG Dùng: Miêu tả mức độ thường xuyên của thói quen Không dùng: Kết hợp never với một phủ định khác trong câu cơ bản So sánh: She usually walks. | She is usually early. CÔNG THỨC S + adverb + main verb; S + be + adverb QUY TẮC •Trước động từ thường: I usually walk. •Sau to be: She is always kind. •Never: Không dùng thêm not"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p16:c01",
+      "datio-grammar-30d:p40:c05",
+      "datio-grammar-30d:p16:c00"
+    ],
+    "context_chars": 2319,
+    "context_hit": true,
+    "latency_ms": 1499.9
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Muốn đếm nước hay bánh mì thì nói thế nào cho đúng?",
+    "query_sent": "Muốn đếm nước hay bánh mì thì nói thế nào cho đúng?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 29,
+        "evidence": "Muốn đếm danh từ không đếm được, hãy thêm đơn vị: a bottle of water, two loaves of bread."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 42,
+        "evidence": "Muốn đếm danh từ không đếm được, hãy thêm đơn vị: a bottle of water, two loaves of bread."
+      }
+    ],
+    "expected_answer": "Thêm đơn vị đo/chứa: a bottle of water, two loaves of bread.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p29:c02",
+        "page": 29,
+        "score": 3.891686,
+        "hit": false,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 4 | Ngày 22 | Bài học | DANH TỪ ĐẾM ĐƯỢC VÀ KHÔNG ĐẾM ĐƯỢC] LUYỆN TẬP - 8 CÂU Lưu ý: Làm xong 6 câu tự luyện, hãy tra Đáp án & giải thích ở trang 41. Không xem đáp án trước khi làm. A. LÀM CÓ HƯỚNG DẪN - 2 CÂU 1. Chọn đúng: I need ___. A. a water B. some water Đáp án: B. some water Vì sao? Water là danh từ không đếm được nên không dùng a trong nghĩa cơ bản. 2. Viết cách nói đúng cho two breads. Đáp án: two loaves of bread Vì sao? Dùng đơn vị loaf để đếm bread. B. TỰ LUYỆN - 6 CÂU 1. Chọn danh từ không đếm được: A. apple B. rice C. bottle 2. Chọn đúng: a bread/some bread. 3. Điền is/are: There ___ some water in the bottle. 4. Sửa lỗi: I bought two bread. 5. Viết một câu với danh từ đếm được và một câu với danh từ không đếm được. 6. Tự viết thêm 1 câu dùng đúng công thức và ít nhất 1 từ trong bảng từ vựng. BÀI LÀM / GHI NHÁP"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p42:c02",
+        "page": 42,
+        "score": 1.871023,
+        "hit": true,
+        "stage_ranks": {
+          "first": 4
+        },
+        "text": "[Ngày 22 | Đáp án] NGÀY 22 1B. 2 some bread. 3 is. 4 I bought two loaves of bread. hoặc I bought some bread. 5 Câu mẫu: I have two apples. I drink some water. 6. Câu mẫu: I need an apple. Đáp án khác vẫn đúng nếu đúng cấu trúc, dùng từ phù hợp và hợp nghĩa. Giải thích trọng tâm: Đối chiếu công thức a/an + singular countable; some + plural/uncountable. Muốn đếm danh từ không đếm được, hãy thêm đơn vị: a bottle of water, two loaves of bread. Với câu tự viết, đáp án khác vẫn đúng nếu đúng cấu trúc và hợp nghĩa."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p29:c01",
+        "page": 29,
+        "score": 1.458223,
+        "hit": true,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 4 | Ngày 22 | Bài học | DANH TỪ ĐẾM ĐƯỢC VÀ KHÔNG ĐẾM ĐƯỢC] VÍ DỤ I need an apple. Tôi cần một quả táo. We need some water. Chúng tôi cần một ít nước. 5 TỪ VỰNG apple /ˈæp.əl/ eat an apple quả táo rice /raɪs/ a bowl of rice cơm, gạo bread /bred/ a slice of bread bánh mì water /ˈwɔː.tər/drink water nước bottle /ˈbɒt.əl/ a bottle of water chai PHÁT ÂM: Ôn đuôi số nhiều: apples /z/, books /s/, oranges /ɪz/. HIỂU SÂU HƠN: Muốn đếm danh từ không đếm được, hãy thêm đơn vị: a bottle of water, two loaves of bread. LỖI DỄ MẮC a water → some water hoặc a bottle of water. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc: TỰ CHẤM CUỐI NGÀY □ Tôi nói được quy tắc bằng lời của mình. □ Tôi làm đúng ít nhất 6/8 câu. □ Tôi đọc to hai câu ví dụ. □ Tôi biết mình cần học lại phần nào."
+      }
+    ],
+    "first_hit_rank@10": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p29:c02",
+      "datio-grammar-30d:p42:c02",
+      "datio-grammar-30d:p29:c01"
+    ],
+    "context_chars": 2407,
+    "context_hit": true,
+    "latency_ms": 1496.5
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Quá khứ của buy là gì và có thêm -ed không?",
+    "query_sent": "Quá khứ của buy là gì và có thêm -ed không?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 23,
+        "evidence": "Buy là động từ bất quy tắc; không thêm -ed."
+      }
+    ],
+    "expected_answer": "bought; buy là động từ bất quy tắc nên không thêm -ed.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p23:c02",
+        "page": 23,
+        "score": 4.054646,
+        "hit": true,
+        "stage_ranks": {
+          "first": 4
+        },
+        "text": "[Tuần 3 | Ngày 17 | Bài học | ĐỘNG TỪ BẤT QUY TẮC] A. LÀM CÓ HƯỚNG DẪN - 2 CÂU 1. Chọn đúng: I ___ home early. A. went B. goed Đáp án: A. went Vì sao? Go là động từ bất quy tắc; dạng quá khứ là went. 2. Viết quá khứ của buy. Đáp án: bought Vì sao? Buy là động từ bất quy tắc; không thêm -ed. B. TỰ LUYỆN - 6 CÂU 1. Yesterday, we ___ to the park. A. go B. went 2. She ___ breakfast at 7 a.m. A. had B. haved 3. Điền dạng đúng: I ___ (buy) a new pen. 4. Sửa lỗi: He goed home early. 5. Viết hai câu dùng hai động từ bất quy tắc khác nhau. 6. Tự viết thêm 1 câu dùng đúng công thức và ít nhất 1 từ trong bảng từ vựng. BÀI LÀM / GHI NHÁP"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p23:c00",
+        "page": 23,
+        "score": 2.575348,
+        "hit": false,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 3 | Ngày 17 | Bài học | ĐỘNG TỪ BẤT QUY TẮC] TUẦN 3 • KỂ QUÁ KHỨ & NÓI KẾ HOẠCH ĐỘNG TỪ BẤT QUY TẮC 25 PHÚT / NGÀY NGÀY 17 • TUẦN 3 ĐỘNG TỪ BẤT QUY TẮC Mục tiêu: Dùng đúng dạng quá khứ của các động từ tần suất cao. Ôn nhanh: Viết quá khứ của visit và study. HIỂU BẢN CHẤT Động từ bất quy tắc không tạo quá khứ bằng -ed. Nên ghi nhớ chúng trong cụm quen thuộc như went home, had breakfast. DÙNG / KHÔNG DÙNG Dùng: Dạng quá khứ riêng như went, saw, bought Không dùng: Tự thêm -ed nếu động từ đã có dạng bất quy tắc So sánh: go → went | go → goed CÔNG THỨC S + irregular past form QUY TẮC •Không thêm -ed: go → went •Mọi chủ ngữ: Dùng cùng một dạng quá khứ •Học theo cụm: went home, had breakfast VÍ DỤ We went to the museum yesterday. Hôm qua chúng tôi đến bảo tàng. She bought a new notebook. Cô ấy đã mua một quyển vở mới."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p22:c00",
+        "page": 22,
+        "score": -0.026799,
+        "hit": false,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 3 | Ngày 16 | Bài học | QUÁ KHỨ ĐƠN CÓ QUY TẮC] TUẦN 3 • KỂ QUÁ KHỨ & NÓI KẾ HOẠCH QUÁ KHỨ ĐƠN CÓ QUY TẮC 25 PHÚT / NGÀY NGÀY 16 • TUẦN 3 QUÁ KHỨ ĐƠN CÓ QUY TẮC Mục tiêu: Kể hành động đã hoàn tất bằng động từ -ed. Ôn nhanh: Điền was/were: My parents ___ busy yesterday. HIỂU BẢN CHẤT Quá khứ đơn diễn tả hành động đã kết thúc. Với động từ có quy tắc, dấu hiệu quá khứ là -ed và không đổi theo chủ ngữ. DÙNG / KHÔNG DÙNG Dùng: Hành động đã hoàn tất tại thời điểm quá khứ xác định Không dùng: Thêm -ed lần nữa sau did/didn't So sánh: She visited Hue. | She didn't visited Hue. CÔNG THỨC S + verb-ed QUY TẮC •Phần lớn động từ: thêm -ed •Tận cùng e: thêm -d •Phụ âm + y: y → ied VÍ DỤ We visited our grandparents last weekend. Cuối tuần trước chúng tôi thăm ông bà. She studied for the test yesterday. Hôm qua cô ấy học cho bài kiểm tra."
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p23:c02",
+      "datio-grammar-30d:p23:c00"
+    ],
+    "context_chars": 1633,
+    "context_hit": true,
+    "latency_ms": 1554.6
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Khi nói về kế hoạch đã quyết định từ trước thì dùng cấu trúc nào?",
+    "query_sent": "Khi nói về kế hoạch đã quyết định từ trước thì dùng cấu trúc nào?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 26,
+        "evidence": "Be going to nhấn mạnh kế hoạch đã có trước."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 41,
+        "evidence": "Be going to nhấn mạnh kế hoạch đã có trước."
+      }
+    ],
+    "expected_answer": "Be going to (am/is/are + going to + động từ nguyên mẫu).",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p26:c00",
+        "page": 26,
+        "score": 2.00241,
+        "hit": false,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 3 | Ngày 20 | Bài học | BE GOING TO] TUẦN 3 • KỂ QUÁ KHỨ & NÓI KẾ HOẠCH BE GOING TO 25 PHÚT / NGÀY NGÀY 20 • TUẦN 3 BE GOING TO Mục tiêu: Dùng be going to cho kế hoạch đã được quyết định. Ôn nhanh: Điền dạng đúng: I think Lan ___ (pass) the test. HIỂU BẢN CHẤT Be going to nhấn mạnh kế hoạch đã có trước lúc nói. Cần chia am/is/are, sau đó dùng going to + động từ nguyên mẫu. DÙNG / KHÔNG DÙNG Dùng: Kế hoạch, ý định đã được quyết định Không dùng: Bỏ am/is/are hoặc chia động từ sau to So sánh: I'll answer the phone. - quyết định lúc nói | I'm going to revise tonight. - kế hoạch có trước CÔNG THỨC S + am/is/are + going to + base verb QUY TẮC •To be: Chia theo chủ ngữ •Going to: Giữ nguyên •Động từ chính: Dùng nguyên mẫu"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p44:c01",
+        "page": 44,
+        "score": 0.271349,
+        "hit": false,
+        "stage_ranks": {
+          "first": 19
+        },
+        "text": "[Phụ lục] Chủ điểm Cấu trúc cốt lõi Dấu hiệu / ghi nhớ To be hiện tại I am; he/she/it is; you/we/they are Danh từ, tính từ, tuổi, nghề, nơi chốn Hiện tại đơn S + V(s/es) Thói quen, sự thật Hỏi hiện tại đơn Do/Does + S + V? Sau do/does dùng V nguyên mẫu Hiện tại tiếp diễn S + am/is/are + V-ing Hành động đang xảy ra To be quá khứ I/he/she/it was; you/we/they were Trạng thái/vị trí đã kết thúc Quá khứ đơn S + V-ed/irregular past Hành động đã hoàn tất Hỏi quá khứ đơn Did + S + V? Sau did dùng V nguyên mẫu Dự đoán/quyết định S + will + V Dự đoán hoặc quyết định lúc nói Kế hoạch S + be going to + V Kế hoạch có trước Modal S + can/should/must + V Sau modal dùng V nguyên mẫu So sánh hơn adj-er/more adj + than So sánh hai đối tượng So sánh nhất the adj-est/the most adj Nổi bật nhất trong một nhóm"
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p41:c07",
+        "page": 41,
+        "score": -0.149358,
+        "hit": true,
+        "stage_ranks": {
+          "first": 3
+        },
+        "text": "[Ngày 20 | Đáp án] NGÀY 20 1A. 2A. 3 I am not going to travel this weekend. 4 He is going to study tonight. 5 Câu mẫu: I am going to finish my homework. I am going to visit my grandparents. 6. Câu mẫu: I am going to revise tonight. Đáp án khác vẫn đúng nếu đúng cấu trúc, dùng từ phù hợp và hợp nghĩa. Giải thích trọng tâm: Đối chiếu công thức S + am/is/are + going to + base verb. Be going to nhấn mạnh kế hoạch đã có trước. Đừng quên chia am/is/are theo chủ ngữ. Với câu tự viết, đáp án khác vẫn đúng nếu đúng cấu trúc và hợp nghĩa. SAU KHI CHẤM 3 câu em cần làm lại: ____________________________________________ Quy tắc em hay quên: _____________________________________________ Ngày em sẽ kiểm tra lại: __________________________________________"
+      }
+    ],
+    "first_hit_rank@10": 3,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p26:c00",
+      "datio-grammar-30d:p44:c01"
+    ],
+    "context_chars": 1700,
+    "context_hit": false,
+    "latency_ms": 1373.4
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Sau can, should, must thì động từ chia thế nào?",
+    "query_sent": "Sau can, should, must thì động từ chia thế nào?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 33,
+        "evidence": "Modal không đổi theo chủ ngữ và đi với động từ nguyên mẫu không to."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 42,
+        "evidence": "Modal không đổi theo chủ ngữ và đi với động từ nguyên mẫu không to."
+      }
+    ],
+    "expected_answer": "Dùng động từ nguyên mẫu không to; modal không đổi theo chủ ngữ.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p33:c00",
+        "page": 33,
+        "score": 4.680325,
+        "hit": false,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 4 | Ngày 26 | Bài học | CAN, SHOULD VÀ MUST] TUẦN 4 • MỞ RỘNG CÂU CAN, SHOULD VÀ MUST 25 PHÚT / NGÀY NGÀY 26 • TUẦN 4 CAN, SHOULD VÀ MUST Mục tiêu: Nói khả năng, lời khuyên và sự bắt buộc. Ôn nhanh: Viết dạng so sánh nhất của good. HIỂU BẢN CHẤT Modal thể hiện khả năng, lời khuyên hoặc sự bắt buộc. Modal giữ nguyên với mọi chủ ngữ và đi với động từ nguyên mẫu không to. DÙNG / KHÔNG DÙNG Dùng: can cho khả năng, should cho lời khuyên, must cho bắt buộc Không dùng: Thêm to hoặc -s vào động từ sau modal So sánh: She can swim. | She can swims. | She should to swim. CÔNG THỨC S + can/should/must + base verb QUY TẮC •can: Khả năng hoặc xin phép đơn giản •should: Lời khuyên •must: Sự bắt buộc mạnh •Sau modal: Động từ nguyên mẫu không to"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p33:c01",
+        "page": 33,
+        "score": 1.389358,
+        "hit": true,
+        "stage_ranks": {
+          "first": 9
+        },
+        "text": "[Tuần 4 | Ngày 26 | Bài học | CAN, SHOULD VÀ MUST] VÍ DỤ You should drink more water. Bạn nên uống nhiều nước hơn. Students must follow the rules. Học sinh phải tuân thủ nội quy. 5 TỪ VỰNG exercise/ˈek.sə.saɪz/do exercise tập thể dục rest /rest/ get some rest nghỉ ngơi healthy/ˈhel.θi/ stay healthy khỏe mạnh rule /ruːl/ follow a rule quy tắc uniform/ˈjuː.nɪ.fɔːm/wear a uniform đồng phục PHÁT ÂM: Đọc rõ âm cuối /t/ trong can't; dựa thêm vào ngữ cảnh để phân biệt can/can't. HIỂU SÂU HƠN: Modal không đổi theo chủ ngữ và đi với động từ nguyên mẫu không to. Ý nghĩa của từng modal mới là điểm cần phân biệt. LỖI DỄ MẮC You should to rest. → You should rest. Modal đi với động từ nguyên mẫu không to. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc:"
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p35:c01",
+        "page": 35,
+        "score": 1.343653,
+        "hit": false,
+        "stage_ranks": {
+          "first": 18
+        },
+        "text": "[Tuần 4 | Ngày 28 | Ôn tập] 4Mở rộng ý Modal + từ nối. Công thức: S + can/should/must + base verb Ví dụ: You should drink more water. Lỗi cần tránh: You should to rest. → You should rest. Modal đi với động từ nguyên mẫu không to. Học lại: Ngày 26-27 Checklist trước khi làm bài □ Mảng 1: Số lượng Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 2: Miêu tả Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 3: So sánh Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 4: Mở rộng ý Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng."
+      }
+    ],
+    "first_hit_rank@10": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p33:c00",
+      "datio-grammar-30d:p33:c01"
+    ],
+    "context_chars": 1680,
+    "context_hit": true,
+    "latency_ms": 1534.7
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Có được dùng cả because và so để nối cùng một cặp nguyên nhân - kết quả không?",
+    "query_sent": "Có được dùng cả because và so để nối cùng một cặp nguyên nhân - kết quả không?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 34,
+        "evidence": "Không dùng because và so cùng lúc để nối cùng một cặp nguyên nhân-kết quả."
+      }
+    ],
+    "expected_answer": "Không; because giới thiệu nguyên nhân, so giới thiệu kết quả, chỉ dùng một trong hai.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p34:c01",
+        "page": 34,
+        "score": 9.035902,
+        "hit": true,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 4 | Ngày 27 | Bài học | AND, BUT, BECAUSE VÀ SO] VÍ DỤ I stayed home because I was tired. Tôi ở nhà vì tôi mệt. It was raining, so we took a taxi. Trời mưa nên chúng tôi đi taxi. 5 TỪ VỰNG reason /ˈriː.zən/ main reason lý do choose/tʃuːz/ choose a subject lựa chọn prefer /prɪˈfɜːr/ prefer English thích hơn difficult/ˈdɪf.ɪ.kəlt/difficult question khó useful /ˈjuːs.fəl/ useful advice hữu ích PHÁT ÂM: Ngắt nhịp nhẹ giữa hai nhóm ý, đặc biệt trước but và so. HIỂU SÂU HƠN: Because giới thiệu nguyên nhân; so giới thiệu kết quả. Không dùng cả hai để nối cùng một cặp ý. LỖI DỄ MẮC Không dùng because và so cùng lúc để nối cùng một cặp nguyên nhân-kết quả. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc:"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p34:c00",
+        "page": 34,
+        "score": 7.82659,
+        "hit": false,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 4 | Ngày 27 | Bài học | AND, BUT, BECAUSE VÀ SO] TUẦN 4 • MỞ RỘNG CÂU AND, BUT, BECAUSE VÀ SO 25 PHÚT / NGÀY NGÀY 27 • TUẦN 4 AND, BUT, BECAUSE VÀ SO Mục tiêu: Nối hai ý theo quan hệ bổ sung, tương phản, nguyên nhân và kết quả. Ôn nhanh: Sửa lỗi: She can speaks English. HIỂU BẢN CHẤT Từ nối cho biết quan hệ giữa hai ý: bổ sung, tương phản, nguyên nhân hoặc kết quả. Chọn sai từ nối có thể làm sai nghĩa. DÙNG / KHÔNG DÙNG Dùng: Một từ nối thể hiện đúng quan hệ giữa hai ý Không dùng: because và so đồng thời cho cùng một cặp nguyên nhân- kết quả So sánh: I stayed home because I was tired. = I was tired, so I stayed home. CÔNG THỨC idea + connector + idea QUY TẮC •and: Bổ sung •but: Tương phản •because: Giới thiệu nguyên nhân •so: Giới thiệu kết quả"
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p42:c07",
+        "page": 42,
+        "score": 6.159139,
+        "hit": false,
+        "stage_ranks": {
+          "first": 4
+        },
+        "text": "[Ngày 27 | Đáp án] NGÀY 27 1A. 2A. 3 I was tired, so I went to bed early. 4 I stayed home because I was tired. hoặc I was tired, so I stayed home. 5 Câu mẫu: I like English because it is useful. 6. Câu mẫu: I stayed home because I was tired. Đáp án khác vẫn đúng nếu đúng cấu trúc, dùng từ phù hợp và hợp nghĩa. Giải thích trọng tâm: Đối chiếu công thức idea + connector + idea. Because giới thiệu nguyên nhân; so giới thiệu kết quả. Không dùng cả hai để nối cùng một cặp ý. Với câu tự viết, đáp án khác vẫn đúng nếu đúng cấu trúc và hợp nghĩa. SAU KHI CHẤM 3 câu em cần làm lại: ____________________________________________ Quy tắc em hay quên: _____________________________________________ Ngày em sẽ kiểm tra lại: __________________________________________"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p34:c01",
+      "datio-grammar-30d:p34:c00"
+    ],
+    "context_chars": 1657,
+    "context_hit": true,
+    "latency_ms": 1612.8
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Làm bài Final Check được 13-16 điểm thì có ý nghĩa gì?",
+    "query_sent": "Làm bài Final Check được 13-16 điểm thì có ý nghĩa gì?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 38,
+        "evidence": "13-16 | Đã có nền; xem lại các nhóm câu sai"
+      }
+    ],
+    "expected_answer": "Đã có nền; xem lại các nhóm câu sai.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p38:c03",
+        "page": 38,
+        "score": -1.419541,
+        "hit": true,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Ngày 30 | Final Check] Đọc kết quả 17-20 | Sẵn sàng chuyển sang chương trình ứng dụng 13-16 | Đã có nền; xem lại các nhóm câu sai 0-12 | Học lại theo từng tuần trước khi chuyển lộ trình Sai đâu, học lại đó Câu 1-4 | Ngày 01-06 Câu 5-8 | Ngày 08-13 Câu 9-14 | Ngày 15-20 Câu 15-19 | Ngày 22-27"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p22:c00",
+        "page": 22,
+        "score": -1.776004,
+        "hit": false,
+        "stage_ranks": {
+          "first": 16
+        },
+        "text": "[Tuần 3 | Ngày 16 | Bài học | QUÁ KHỨ ĐƠN CÓ QUY TẮC] TUẦN 3 • KỂ QUÁ KHỨ & NÓI KẾ HOẠCH QUÁ KHỨ ĐƠN CÓ QUY TẮC 25 PHÚT / NGÀY NGÀY 16 • TUẦN 3 QUÁ KHỨ ĐƠN CÓ QUY TẮC Mục tiêu: Kể hành động đã hoàn tất bằng động từ -ed. Ôn nhanh: Điền was/were: My parents ___ busy yesterday. HIỂU BẢN CHẤT Quá khứ đơn diễn tả hành động đã kết thúc. Với động từ có quy tắc, dấu hiệu quá khứ là -ed và không đổi theo chủ ngữ. DÙNG / KHÔNG DÙNG Dùng: Hành động đã hoàn tất tại thời điểm quá khứ xác định Không dùng: Thêm -ed lần nữa sau did/didn't So sánh: She visited Hue. | She didn't visited Hue. CÔNG THỨC S + verb-ed QUY TẮC •Phần lớn động từ: thêm -ed •Tận cùng e: thêm -d •Phụ âm + y: y → ied VÍ DỤ We visited our grandparents last weekend. Cuối tuần trước chúng tôi thăm ông bà. She studied for the test yesterday. Hôm qua cô ấy học cho bài kiểm tra."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p38:c02",
+        "page": 38,
+        "score": -2.962857,
+        "hit": false,
+        "stage_ranks": {
+          "first": 3
+        },
+        "text": "[Ngày 30 | Final Check] We ___ going to revise tonight. A. am B. are 15. We don't have ___ time. A. many B. much 16. He speaks English ___. A. clear B. clearly 17. This exercise is ___ than the last one. A. easier B. more easy 18. You ___ drink more water. A. should B. should to 19. I stayed home ___ I was tired. A. because B. so 20. Viết 3-4 câu về bản thân, gồm: một thói quen, một việc đã làm gần đây và một kế hoạch. Checklist câu 20 □ - Có ít nhất 3 câu hoàn chỉnh. □ - Dùng đúng hiện tại đơn cho thói quen. □ - Dùng đúng quá khứ đơn cho việc đã làm. □ - Dùng will hoặc be going to hợp lý cho tương lai. □ Câu 20 được 1 điểm nếu đạt ít nhất 3 trong 4 tiêu chí trên."
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p38:c03",
+      "datio-grammar-30d:p22:c00",
+      "datio-grammar-30d:p38:c02"
+    ],
+    "context_chars": 2063,
+    "context_hit": true,
+    "latency_ms": 1515.8
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Đáp án câu 6 của Mini Test tuần 2 là gì?",
+    "query_sent": "Đáp án câu 6 của Mini Test tuần 2 là gì?",
+    "filter": {
+      "page_type": "answer_key"
+    },
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 41,
+        "evidence": "NGÀY 14 1A. 2B. 3A. 4B. 5A. 6 Does he play football?"
+      }
+    ],
+    "expected_answer": "Does he play football?",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p41:c00",
+        "page": 41,
+        "score": 5.562683,
+        "hit": false,
+        "stage_ranks": {
+          "first": 4
+        },
+        "text": "[Ngày 14-20 | Đáp án] ĐÁP ÁN Đáp án & giải thích ngày 14-20 TRANG TRA CỨU Chỉ mở trang này sau khi đã tự làm. Với câu viết mở, đáp án là câu mẫu - câu khác vẫn đúng nếu đúng cấu trúc và nghĩa. Trang này gồm: đáp án đủ 6 câu của ngày 15-20 và đáp án Mini Test tuần 2 đủ 20 câu. ĐÁP ÁN MINI TEST TUẦN 2 - 20 CÂU NGÀY 14 Câu 1-12 là phần đề gốc; câu 13-20 là phần luyện bổ sung. Tất cả 20 đáp án nằm ngay trong khối này."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p42:c00",
+        "page": 42,
+        "score": 2.939471,
+        "hit": false,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Ngày 21-27 | Đáp án] ĐÁP ÁN Đáp án & giải thích ngày 21-27 TRANG TRA CỨU Chỉ mở trang này sau khi đã tự làm. Với câu viết mở, đáp án là câu mẫu - câu khác vẫn đúng nếu đúng cấu trúc và nghĩa. Trang này gồm: đáp án đủ 6 câu của ngày 22-27 và đáp án Mini Test tuần 3 đủ 20 câu. ĐÁP ÁN MINI TEST TUẦN 3 - 20 CÂU NGÀY 21 Câu 1-12 là phần đề gốc; câu 13-20 là phần luyện bổ sung. Tất cả 20 đáp án nằm ngay trong khối này."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p40:c00",
+        "page": 40,
+        "score": 2.393735,
+        "hit": false,
+        "stage_ranks": {
+          "first": 3
+        },
+        "text": "[Ngày 07-13 | Đáp án] ĐÁP ÁN Đáp án & giải thích ngày 07-13 TRANG TRA CỨU Chỉ mở trang này sau khi đã tự làm. Với câu viết mở, đáp án là câu mẫu - câu khác vẫn đúng nếu đúng cấu trúc và nghĩa. Trang này gồm: đáp án đủ 6 câu của ngày 08-13 và đáp án Mini Test tuần 1 đủ 20 câu. ĐÁP ÁN MINI TEST TUẦN 1 - 20 CÂU NGÀY 07 Câu 1-12 là phần đề gốc; câu 13-20 là phần luyện bổ sung. Tất cả 20 đáp án nằm ngay trong khối này."
+      }
+    ],
+    "first_hit_rank@10": null,
+    "hit1": false,
+    "hit3": false,
+    "context_ids": [
+      "datio-grammar-30d:p41:c00",
+      "datio-grammar-30d:p42:c00",
+      "datio-grammar-30d:p40:c00"
+    ],
+    "context_chars": 1510,
+    "context_hit": false,
+    "latency_ms": 987.3
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Ở phần tự chấm tuần 3, nếu sai câu 9-11 thì phải học lại ngày nào?",
+    "query_sent": "Ở phần tự chấm tuần 3, nếu sai câu 9-11 thì phải học lại ngày nào?",
+    "filter": {
+      "week": 3
+    },
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 27,
+        "evidence": "sai 9-11 → Ngày 19-20"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 28,
+        "evidence": "sai 9-11 → Ngày 19-20"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 42,
+        "evidence": "sai 9-11 → Ngày 19-20"
+      }
+    ],
+    "expected_answer": "Ngày 19-20.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p27:c02",
+        "page": 27,
+        "score": 9.177093,
+        "hit": true,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 3 | Ngày 21 | Ôn tập] Tự chấm & học lại 17-20 đúng Nền tuần này đã chắc. 13-16 đúng Sửa câu sai và làm lại. 0-12 đúng Học lại trước khi tiếp tục. HỌC LẠI: Sai 1-2 → Ngày 15; sai 3-8 → Ngày 16-18; sai 9-11 → Ngày 19-20. Câu 13-16, 19-20: Ngày 15-18; câu 17-18: Ngày 19-20. 17-20 đúng: tiếp tục. 13-16 đúng: sửa từng câu sai rồi làm lại sau một ngày. 0-12 đúng: học lại nhóm ngày được chỉ ra."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p28:c00",
+        "page": 28,
+        "score": 8.39551,
+        "hit": true,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 3 | Ngày 21 | Mini Test] ÔN TẬP • NGÀY 21 / 30 Mini Test tuần 3 - 20 câu 25 PHÚT Tự chấm & học lại 17-20 đúng Nền tuần này đã chắc. 13-16 đúng Sửa câu sai và làm lại. 0-12 đúng Học lại trước khi tiếp tục. HỌC LẠI: Sai 1-2 → Ngày 15; sai 3-8 → Ngày 16-18; sai 9-11 → Ngày 19-20. Câu 13-16, 19-20: Ngày 15-18; câu 17-18: Ngày 19-20."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p27:c01",
+        "page": 27,
+        "score": 0.995042,
+        "hit": false,
+        "stage_ranks": {
+          "first": 7
+        },
+        "text": "[Tuần 3 | Ngày 21 | Ôn tập] 4Tương lai will hoặc be going to. Công thức: S + will/won't + base verb Ví dụ: I think it will rain tomorrow. Lỗi cần tránh: She will goes. → She will go. Sau will, dùng động từ nguyên mẫu. Học lại: Ngày 19-20 Checklist trước khi làm bài □ Mảng 1: Trạng thái quá khứ Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 2: Hành động quá khứ Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 3: Hỏi - phủ định Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 4: Tương lai Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng."
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p27:c02",
+      "datio-grammar-30d:p28:c00",
+      "datio-grammar-30d:p27:c01"
+    ],
+    "context_chars": 1786,
+    "context_hit": true,
+    "latency_ms": 1568.6
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Câu 15 trong Mini Test tuần 1 yêu cầu làm gì?",
+    "query_sent": "Câu 15 trong Mini Test tuần 1 yêu cầu làm gì?",
+    "filter": {
+      "week": 1,
+      "page_type": "mini_test"
+    },
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 12,
+        "evidence": "15. This is ___ umbrella. A. a B. an"
+      }
+    ],
+    "expected_answer": "Chọn a hay an trong: This is ___ umbrella.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p12:c01",
+        "page": 12,
+        "score": 2.133945,
+        "hit": true,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 1 | Ngày 07 | Mini Test] Mini Test - 20 câu 20 PHÚT Làm xong 20 câu, xem mục “ĐÁP ÁN MINI TEST TUẦN 1” ở trang 39. 1. Chọn câu hoàn chỉnh: A. My new classmate. B. My new classmate is friendly. 2. I ___ a student. A. am B. is C. are 3. They ___ at school today. A. am B. is C. are 4. Đổi thành câu hỏi: Lan is ready. 5. Sửa lỗi: Do they are busy? 6. Chọn đúng: a eraser/an eraser. 7. Viết số nhiều của box. 8. This is Minh. ___ sister is twelve. A. His B. Her 9. Viết lại: the book of Lan. 10. There ___ a window near the desk. 11. The books are ___ the shelf. A. on B. at 12. Viết hai câu giới thiệu bản thân hoặc lớp học, dùng ít nhất hai cấu trúc trong tuần. 13. My brother ___ a student. A. is B. are 14. ___ you from Hue? A. Is B. Are 15. This is ___ umbrella. A. a B. an 16. Viết dạng số nhiều của child. 17."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p12:c00",
+        "page": 12,
+        "score": 0.681493,
+        "hit": false,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 1 | Ngày 07 | Mini Test] ÔN TẬP • NGÀY 07 / 30 Mini Test tuần 1 - 20 câu 25 PHÚT Tự chấm & học lại 17-20 đúng Nền tuần này đã chắc. 13-16 đúng Sửa câu sai và làm lại. 0-12 đúng Học lại trước khi tiếp tục. HỌC LẠI: Sai 1-5 → Ngày 01-03; sai 6-9 → Ngày 04-05; sai 10-11 → Ngày 06. Câu 13-14: Ngày 02-03; câu 15-17: Ngày 04- 05; câu 18-20: Ngày 06."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p12:c02",
+        "page": 12,
+        "score": -1.427423,
+        "hit": false,
+        "stage_ranks": {
+          "first": 3
+        },
+        "text": "[Tuần 1 | Ngày 07 | Mini Test] This is ___ book. A. Lan's B. Lan 18. There ___ three chairs in the room. A. is B. are 19. Sửa lỗi: He is teacher. 20. Viết 2 câu miêu tả phòng học bằng there is/are. NHÁP / GHI LẠI CÂU CHƯA CHẮC"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p12:c01",
+      "datio-grammar-30d:p12:c00",
+      "datio-grammar-30d:p12:c02"
+    ],
+    "context_chars": 1655,
+    "context_hit": true,
+    "latency_ms": 219.1
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Viết 'Did you went...?' sai ở đâu?",
+    "query_sent": "Viết 'Did you went...?' sai ở đâu?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 24,
+        "evidence": "Did you went...? → Did you go...? Sau did, động từ trở về nguyên mẫu."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 27,
+        "evidence": "Did you went...? → Did you go...? Sau did, động từ trở về nguyên mẫu."
+      }
+    ],
+    "expected_answer": "Sau did động từ phải trở về nguyên mẫu: Did you go...?",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p24:c01",
+        "page": 24,
+        "score": 2.103951,
+        "hit": true,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 3 | Ngày 18 | Bài học | DID TRONG PHỦ ĐỊNH VÀ CÂU HỎI] VÍ DỤ I didn't watch TV last night. Tối qua tôi không xem TV. Did you finish your homework? Bạn đã hoàn thành bài tập chưa? 5 TỪ VỰNG meet /miːt/ meet a friend gặp travel /ˈtræv.əl/ travel by bus du lịch enjoy /ɪnˈdʒɔɪ/ enjoy the trip thích, tận hưởng return /rɪˈtɜːn/ return home trở về happen/ˈhæp.ən/what happened xảy ra PHÁT ÂM: Luyện Did you...? rõ hai từ; không bắt buộc học viên nói dạng rút gọn nhanh. HIỂU SÂU HƠN: Did đã mang dấu hiệu quá khứ nên động từ chính phải trở về nguyên mẫu trong câu hỏi và phủ định. LỖI DỄ MẮC Did you went...? → Did you go...? Sau did, động từ trở về nguyên mẫu. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc:"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p27:c00",
+        "page": 27,
+        "score": 0.377481,
+        "hit": true,
+        "stage_ranks": {
+          "first": 6
+        },
+        "text": "[Tuần 3 | Ngày 21 | Ôn tập] ÔN TẬP • NGÀY 21 / 30 ÔN TẬP TUẦN 3 25 PHÚT GRAMMAR MAP Past → was/were OR past verb; Future → will OR going to 1 Trạng thái quá khứ was/were. Công thức: S + was/were (+ not) ...; Was/Were + S ...? Ví dụ: I was tired yesterday. Lỗi cần tránh: They was at home. → They were at home. Học lại: Ngày 15 2Hành động quá khứ V-ed hoặc dạng bất quy tắc. Công thức: S + verb-ed Ví dụ: We visited our grandparents last weekend. Lỗi cần tránh: She studyed yesterday. → She studied yesterday. Học lại: Ngày 16-17 3Hỏi - phủ định did + động từ nguyên mẫu. Công thức: S + didn't + V; Did + S + V? Ví dụ: I didn't watch TV last night. Lỗi cần tránh: Did you went...? → Did you go...? Sau did, động từ trở về nguyên mẫu. Học lại: Ngày 18"
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p24:c00",
+        "page": 24,
+        "score": 0.252699,
+        "hit": false,
+        "stage_ranks": {
+          "first": 7
+        },
+        "text": "[Tuần 3 | Ngày 18 | Bài học | DID TRONG PHỦ ĐỊNH VÀ CÂU HỎI] TUẦN 3 • KỂ QUÁ KHỨ & NÓI KẾ HOẠCH DID TRONG PHỦ ĐỊNH VÀ CÂU HỎI 25 PHÚT / NGÀY NGÀY 18 • TUẦN 3 DID TRONG PHỦ ĐỊNH VÀ CÂU HỎI Mục tiêu: Tạo câu phủ định và nghi vấn ở quá khứ đơn. Ôn nhanh: Chọn đúng: She bought/buyed a notebook yesterday. HIỂU BẢN CHẤT Trong câu hỏi và phủ định, did mang dấu hiệu quá khứ cho cả câu nên động từ chính trở về nguyên mẫu. DÙNG / KHÔNG DÙNG Dùng: Hỏi hoặc phủ định động từ thường trong quá khứ Không dùng: Với was/were hoặc giữ động từ chính ở dạng quá khứ So sánh: Did she go? | Did she went? CÔNG THỨC S + didn't + V; Did + S + V? QUY TẮC •Mọi chủ ngữ: Dùng did/didn't •Sau did/didn't: Động từ nguyên mẫu •Với to be: Dùng was/were, không dùng did"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p24:c01",
+      "datio-grammar-30d:p27:c00",
+      "datio-grammar-30d:p24:c00"
+    ],
+    "context_chars": 2476,
+    "context_hit": true,
+    "latency_ms": 1539.6
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thì hiện tại tiếp diễn bắt buộc phải có những thành phần nào?",
+    "query_sent": "Thì hiện tại tiếp diễn bắt buộc phải có những thành phần nào?",
+    "filter": null,
+    "method": "rerank_dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 17,
+        "evidence": "Hiện tại tiếp diễn luôn có hai thành phần: to be đã chia và động từ thêm ing."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 40,
+        "evidence": "Hiện tại tiếp diễn luôn có hai thành phần: to be đã chia và động từ thêm ing."
+      }
+    ],
+    "expected_answer": "To be đã chia (am/is/are) và động từ thêm -ing.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p17:c01",
+        "page": 17,
+        "score": 3.86076,
+        "hit": true,
+        "stage_ranks": {
+          "first": 2
+        },
+        "text": "[Tuần 2 | Ngày 12 | Bài học | HIỆN TẠI TIẾP DIỄN] 5 TỪ VỰNG write /raɪt/ write an email viết talk /tɔːk/ talk to a friend nói chuyện wait /weɪt/ wait for the bus chờ run /rʌn/ run in the park chạy sit /sɪt/ sit at a desk ngồi PHÁT ÂM: Đọc âm /ŋ/ ở cuối writing, talking, waiting; không thêm âm /g/. HIỂU SÂU HƠN: Hiện tại tiếp diễn luôn có hai thành phần: to be đã chia và động từ thêm ing. Thiếu một trong hai là sai cấu trúc. LỖI DỄ MẮC She studying now. → She is studying now. Hiện tại tiếp diễn luôn cần to be. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc: TỰ CHẤM CUỐI NGÀY □ Tôi nói được quy tắc bằng lời của mình. □ Tôi làm đúng ít nhất 6/8 câu. □ Tôi đọc to hai câu ví dụ. □ Tôi biết mình cần học lại phần nào."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p17:c00",
+        "page": 17,
+        "score": 0.72298,
+        "hit": false,
+        "stage_ranks": {
+          "first": 1
+        },
+        "text": "[Tuần 2 | Ngày 12 | Bài học | HIỆN TẠI TIẾP DIỄN] TUẦN 2 • NÓI VỀ HIỆN TẠI HIỆN TẠI TIẾP DIỄN 25 PHÚT / NGÀY NGÀY 12 • TUẦN 2 HIỆN TẠI TIẾP DIỄN Mục tiêu: Miêu tả hành động đang xảy ra. Ôn nhanh: Đặt usually đúng vị trí: My brother is tired after school. HIỂU BẢN CHẤT Hiện tại tiếp diễn diễn tả hành động đang trong quá trình xảy ra. Cấu trúc bắt buộc có to be và động từ mang - ing. DÙNG / KHÔNG DÙNG Dùng: Hành động đang xảy ra hoặc tình huống tạm thời quanh hiện tại Không dùng: Thói quen lặp lại đều đặn So sánh: She is reading now. | She reading now. CÔNG THỨC S + am/is/are + V-ing QUY TẮC •Trợ động từ: Phải có am/is/are •Động từ chính: Thêm -ing •Dấu hiệu ý nghĩa: Hành động đang diễn ra quanh lúc nói VÍ DỤ I am doing my homework now. Tôi đang làm bài tập. They are playing in the yard. Họ đang chơi trong sân."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p19:c01",
+        "page": 19,
+        "score": -1.415458,
+        "hit": false,
+        "stage_ranks": {
+          "first": 5
+        },
+        "text": "[Tuần 2 | Ngày 14 | Ôn tập] 4Đang diễn ra am/is/are + V-ing. Công thức: S + am/is/are + V-ing Ví dụ: I am doing my homework now. Lỗi cần tránh: She studying now. → She is studying now. Hiện tại tiếp diễn luôn cần to be. Học lại: Ngày 12-13 Checklist trước khi làm bài □ Mảng 1: Thói quen Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 2: Ngôi thứ ba Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 3: Hỏi - phủ định Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 4: Đang diễn ra Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng."
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p17:c01",
+      "datio-grammar-30d:p17:c00"
+    ],
+    "context_chars": 1728,
+    "context_hit": true,
+    "latency_ms": 1528.7
+  }
+]

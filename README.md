@@ -1,3 +1,53 @@
+# Bài làm Day 7: Phùng Thị Nhài (2A202603725, L3B)
+
+Agent RAG trên kho Day 6 (Datio English, *Xây nền ngữ pháp trong 30 ngày*, 40 trang, 148 chunk; Chroma + `intfloat/multilingual-e5-small` 384 chiều). Agent model: OpenAI `gpt-4.1-mini` (so sánh thêm Gemini `gemini-3.5-flash-lite`). Báo cáo: [report/individual/2A202603725_PhungThiNhai.md](report/individual/2A202603725_PhungThiNhai.md).
+
+## Cài đặt
+
+Dùng lại môi trường Day 6 (Python 3.12, torch CPU, sentence-transformers 6.3.0, chromadb 1.5.9, httpx), repo Day 6 nằm cạnh repo này (hoặc đặt `DAY6_STARTER`) và đã chạy `python -m src.run index` của Day 6.
+
+```powershell
+..\K5-L3B-DAY06-PhungThiNhai-2A202603725-DataIngestion\starter\.venv\Scripts\Activate.ps1
+$env:PYTHONUTF8 = "1"
+Copy-Item .env.example .env   # điền OPENAI_API_KEY (LLM_PROVIDER=openai) hoặc GEMINI_API_KEY
+```
+
+## Chạy lại (từ thư mục gốc repo)
+
+```powershell
+python -m unittest discover -s tests -v                      # 22 test (mock, chỉ kiểm tra code)
+python -m src.day7.export_day6                               # 148 chunk từ Chroma Day 6 -> data/day6/ (không commit)
+python -m src.day7.build_benchmark                           # benchmark/questions.json + cases.json, kiểm tra evidence
+# Retrieval (không cần LLM)
+python -m src.day7.eval_retrieval --split dev
+python -m src.day7.eval_retrieval --split dev --methods dense,bm25,hybrid,rerank_dense,rerank_hybrid --ctx-k 5 --budget 4500
+python -m src.day7.eval_retrieval --split dev --methods dense,bm25,hybrid,rerank_dense,rerank_hybrid --ctx-k 3 --budget 4500 --neighbors 1
+# Agent dev (5 cấu hình), nhãn, tổng hợp
+foreach ($c in "A0_dense","A1_rerank_n1","A2_hybrid_n1","A3_rerank_n1_1s","A4_rerank_n1_link") { python -m src.day7.run_agent --config $c --split dev }
+python -m src.day7.draft_labels --split dev
+python -m src.day7.agent_summary --split dev
+# Test (chỉ chạy sau khi có results/selection.json)
+python -m src.day7.eval_retrieval --split test --methods dense,hybrid --ctx-k 3 --budget 2500 --tag final
+python -m src.day7.eval_retrieval --split test --methods dense,hybrid --ctx-k 3 --budget 4500 --neighbors 1 --tag final
+python -m src.day7.run_agent --config A0_dense --split test
+python -m src.day7.run_agent --config A2_hybrid_n1 --split test
+python -m src.day7.draft_labels --split test
+python -m src.day7.agent_summary --split test --configs A0_dense,A2_hybrid_n1
+```
+
+## Bản đồ file
+
+| Nội dung | Đường dẫn |
+|---|---|
+| Code (retriever, agent, client LLM, đánh giá) | [src/day7/](src/day7/) |
+| Benchmark (nguồn, đã dựng, rubric chấm) | [benchmark/](benchmark/) |
+| Retrieval: tổng hợp + trace top-3 | [results/retrieval/](results/retrieval/) |
+| Tiêu chí chọn (chốt trước) và kết quả chọn | [results/selection_criteria.json](results/selection_criteria.json), [results/selection.json](results/selection.json) |
+| Agent: trace từng câu, nhãn, tổng hợp | [results/agent/](results/agent/) (`dev/`, `test/`, `reviews/`, `summary_*.json`; Gemini ở `gemini-3.5-flash-lite/`) |
+| Test của code | [tests/test_day7.py](tests/test_day7.py) |
+
+---
+
 # Day 7 — Agentic RAG
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**

@@ -1,0 +1,298 @@
+{
+  "A0_dense": {
+    "auto": {
+      "runs": 18,
+      "errors": 0,
+      "tool_use": "18/18",
+      "searches_distribution": {
+        "1": 13,
+        "2": 2,
+        "3": 3
+      },
+      "mean_searches": 1.44,
+      "mean_llm_calls": 2.33,
+      "context_evidence": "11/15",
+      "context_evidence_missing": [
+        "q04",
+        "q08",
+        "q11",
+        "q15"
+      ],
+      "mean_context_chars": 1949,
+      "answered": 15,
+      "abstained": 3,
+      "stop_reasons": {
+        "answered": 15,
+        "model_abstained": 3
+      },
+      "mean_latency_s": 2.69,
+      "tokens_in": 34596,
+      "tokens_out": 1982,
+      "cost_usd_est_paid_tier": 0.017,
+      "cost_usd_actual": 0
+    },
+    "labels": {
+      "cases": 18,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 18,
+        "N": 18
+      },
+      "grounded_answer": {
+        "0": 1,
+        "1": 0,
+        "2": 14,
+        "N": 15,
+        "mean": 1.8666666666666667
+      },
+      "citation_validity": {
+        "n": 23,
+        "N": 24
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15
+      },
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 1,
+        "N": 15
+      }
+    }
+  },
+  "A1_rerank_n1": {
+    "auto": {
+      "runs": 18,
+      "errors": 0,
+      "tool_use": "18/18",
+      "searches_distribution": {
+        "1": 16,
+        "3": 2
+      },
+      "mean_searches": 1.22,
+      "mean_llm_calls": 2.17,
+      "context_evidence": "15/15",
+      "context_evidence_missing": [],
+      "mean_context_chars": 3524,
+      "answered": 16,
+      "abstained": 2,
+      "stop_reasons": {
+        "answered": 16,
+        "model_abstained": 2
+      },
+      "mean_latency_s": 5.47,
+      "tokens_in": 43961,
+      "tokens_out": 2061,
+      "cost_usd_est_paid_tier": 0.0209,
+      "cost_usd_actual": 0
+    },
+    "labels": {
+      "cases": 18,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 18,
+        "N": 18
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 1,
+        "2": 14,
+        "N": 15,
+        "mean": 1.9333333333333333
+      },
+      "citation_validity": {
+        "n": 29,
+        "N": 32
+      },
+      "answer_citation_coverage": {
+        "n": 16,
+        "N": 16
+      },
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      }
+    }
+  },
+  "A2_hybrid_n1": {
+    "auto": {
+      "runs": 18,
+      "errors": 0,
+      "tool_use": "18/18",
+      "searches_distribution": {
+        "1": 15,
+        "2": 1,
+        "3": 2
+      },
+      "mean_searches": 1.28,
+      "mean_llm_calls": 2.17,
+      "context_evidence": "15/15",
+      "context_evidence_missing": [],
+      "mean_context_chars": 3489,
+      "answered": 16,
+      "abstained": 2,
+      "stop_reasons": {
+        "answered": 16,
+        "model_abstained": 2
+      },
+      "mean_latency_s": 3.0,
+      "tokens_in": 43876,
+      "tokens_out": 1965,
+      "cost_usd_est_paid_tier": 0.0207,
+      "cost_usd_actual": 0
+    },
+    "labels": {
+      "cases": 18,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 18,
+        "N": 18
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 15,
+        "N": 15,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 29,
+        "N": 30
+      },
+      "answer_citation_coverage": {
+        "n": 16,
+        "N": 16
+      },
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      }
+    }
+  },
+  "A3_rerank_n1_1s": {
+    "auto": {
+      "runs": 18,
+      "errors": 0,
+      "tool_use": "18/18",
+      "searches_distribution": {
+        "1": 18
+      },
+      "mean_searches": 1,
+      "mean_llm_calls": 2,
+      "context_evidence": "15/15",
+      "context_evidence_missing": [],
+      "mean_context_chars": 3507,
+      "answered": 16,
+      "abstained": 2,
+      "stop_reasons": {
+        "answered": 16,
+        "model_abstained": 2
+      },
+      "mean_latency_s": 14.57,
+      "tokens_in": 37575,
+      "tokens_out": 1886,
+      "cost_usd_est_paid_tier": 0.0181,
+      "cost_usd_actual": 0
+    },
+    "labels": {
+      "cases": 18,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 18,
+        "N": 18
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 1,
+        "2": 14,
+        "N": 15,
+        "mean": 1.9333333333333333
+      },
+      "citation_validity": {
+        "n": 30,
+        "N": 32
+      },
+      "answer_citation_coverage": {
+        "n": 16,
+        "N": 16
+      },
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      }
+    }
+  },
+  "A4_rerank_n1_link": {
+    "auto": {
+      "runs": 18,
+      "errors": 0,
+      "tool_use": "18/18",
+      "searches_distribution": {
+        "1": 15,
+        "3": 3
+      },
+      "mean_searches": 1.33,
+      "mean_llm_calls": 2.17,
+      "context_evidence": "15/15",
+      "context_evidence_missing": [],
+      "mean_context_chars": 3606,
+      "answered": 16,
+      "abstained": 2,
+      "stop_reasons": {
+        "answered": 16,
+        "model_abstained": 2
+      },
+      "mean_latency_s": 4.85,
+      "tokens_in": 44852,
+      "tokens_out": 2117,
+      "cost_usd_est_paid_tier": 0.0213,
+      "cost_usd_actual": 0
+    },
+    "labels": {
+      "cases": 18,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 18,
+        "N": 18
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 1,
+        "2": 14,
+        "N": 15,
+        "mean": 1.9333333333333333
+      },
+      "citation_validity": {
+        "n": 29,
+        "N": 31
+      },
+      "answer_citation_coverage": {
+        "n": 16,
+        "N": 16
+      },
+      "abstention": {
+        "n": 2,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      }
+    }
+  }
+}

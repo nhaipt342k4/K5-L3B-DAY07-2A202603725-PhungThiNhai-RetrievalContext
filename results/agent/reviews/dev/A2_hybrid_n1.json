@@ -1,0 +1,174 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "u-d01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "rubric: từ chối, không khẳng định nội dung ngoài tài liệu",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "u-d02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "rubric: từ chối, không khẳng định nội dung ngoài tài liệu",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "u-d03",
+    "citation_support": [
+      false
+    ],
+    "abstention_correct": false,
+    "reason": "rubric: trả lời câu không có trong tài liệu",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  }
+]

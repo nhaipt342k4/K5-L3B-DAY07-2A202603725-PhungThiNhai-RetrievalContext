@@ -9,3 +9,6 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Exported Day 6 chunk text (derived from a PDF without a redistribution licence); regenerate with export_day6
+data/day6/

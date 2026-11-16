@@ -1,0 +1,146 @@
+{
+  "version": "day7-v1",
+  "status": "frozen",
+  "frozen_at": "2026-11-16",
+  "frozen_note": "Viết và chốt TRƯỚC khi chạy bất kỳ retrieval/agent nào của Day 7. Test Day 7 là tập mới: test và test2 của Day 6 đã được nhìn khi thiết kế chiến lược D nên không dùng làm test độc lập.",
+  "topic_rule": "5 câu test có đáp án chọn chủ điểm KHÔNG trùng 15 câu dev và không trùng test/test2 Day 6: will (ngày 19), tính từ/trạng từ (ngày 24), hiện tại đơn hay tiếp diễn (ngày 13), đáp án Mini Test tuần 4, tự chấm tuần 4.",
+  "absence_check": "Câu thiếu bằng chứng: tìm từ khóa (tiếng Việt và tiếng Anh) trên toàn văn bản 40 trang nội dung đã trích (không chỉ top-k). Ghi từ khóa và số lần xuất hiện trong absence_check của từng câu.",
+  "page_convention": "page = số trang vật lý của PDF (1-based), giống Day 6.",
+  "questions": [
+    {
+      "id": "t7-01",
+      "split": "test",
+      "type": "truc_tiep",
+      "question": "Viết 'She will goes' có đúng không? Sau will động từ chia thế nào?",
+      "expected_answer": "Không đúng; sau will dùng động từ nguyên mẫu: She will go.",
+      "gold_pages": [
+        25,
+        27
+      ],
+      "evidence_quote": "She will goes. → She will go.",
+      "filter": null
+    },
+    {
+      "id": "t7-02",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "question": "Muốn nói anh ấy lái xe một cách cẩn thận thì dùng careful hay carefully?",
+      "expected_answer": "Dùng trạng từ carefully vì nó bổ nghĩa cho hành động lái xe: He drives carefully.",
+      "gold_pages": [
+        31,
+        35
+      ],
+      "evidence_quote": "He drives careful. → He drives carefully.",
+      "filter": null
+    },
+    {
+      "id": "t7-03",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "question": "Cứ thấy chữ 'today' trong câu là phải dùng hiện tại tiếp diễn đúng không?",
+      "expected_answer": "Không nhất thiết; với today phải xét ý nghĩa: dùng tiếp diễn khi đó là tình huống tạm thời quanh hiện tại; không chọn thì chỉ dựa vào một từ.",
+      "gold_pages": [
+        18
+      ],
+      "evidence_quote": "today: Xét ý nghĩa: tình huống tạm thời quanh hiện tại",
+      "filter": null
+    },
+    {
+      "id": "t7-04",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Đáp án câu 5 của Mini Test tuần 4 là gì?",
+      "expected_answer": "B (correctly): He answered the question correctly.",
+      "gold_pages": [
+        43
+      ],
+      "evidence_quote": "NGÀY 28 1B. 2B. 3A. 4A. 5B.",
+      "filter": {
+        "page_type": "answer_key"
+      },
+      "filter_note": "Người hỏi đang tra đáp án nên ngữ cảnh cung cấp page_type=answer_key trước khi truy xuất (giống q11 Day 6).",
+      "scoring_note": "Câu trả lời đủ = chữ cái B; nêu thêm 'correctly' (lấy từ trang đề p36) là điểm cộng, không bắt buộc."
+    },
+    {
+      "id": "t7-05",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Ở phần tự chấm tuần 4, nếu sai câu 4-7 thì phải học lại ngày nào?",
+      "expected_answer": "Ngày 24-25.",
+      "gold_pages": [
+        35,
+        36,
+        43
+      ],
+      "evidence_quote": "sai 4-7 → Ngày 24-25",
+      "filter": {
+        "week": 4
+      },
+      "filter_note": "Câu hỏi nêu rõ tuần 4; các tuần khác có câu 'sai ... → Ngày ...' với ngày khác. Trang đáp án p43 không có trường week nên filter week=4 chỉ giữ p35/p36."
+    },
+    {
+      "id": "u-d01",
+      "split": "dev",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "question": "Câu điều kiện loại 1 (If + hiện tại đơn, will + V) dùng khi nào?",
+      "absence_reason": "Tài liệu 30 ngày không có bài về câu điều kiện.",
+      "absence_check": {
+        "điều kiện": 0,
+        "if ": 0,
+        "conditional": 0
+      }
+    },
+    {
+      "id": "u-d02",
+      "split": "dev",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "question": "Đại từ quan hệ who và which khác nhau thế nào?",
+      "absence_reason": "Không có bài về mệnh đề/đại từ quan hệ.",
+      "absence_check": {
+        "đại từ quan hệ": 0,
+        "who": 0,
+        "which": 0
+      }
+    },
+    {
+      "id": "u-d03",
+      "split": "dev",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "question": "Cấu trúc used to + V dùng để nói về điều gì trong quá khứ?",
+      "absence_reason": "Gần chủ đề quá khứ (tuần 3) nhưng sách không dạy used to.",
+      "absence_check": {
+        "used to": 0
+      }
+    },
+    {
+      "id": "u-t01",
+      "split": "test",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "question": "Thì hiện tại hoàn thành (have/has + V3) được dùng khi nào?",
+      "absence_reason": "Sách chỉ dạy hiện tại đơn/tiếp diễn, quá khứ đơn, will, be going to. Phụ lục có nhắc 'go → went → gone' như mẹo học từ, nhưng không có bài/quy tắc hiện tại hoàn thành.",
+      "absence_check": {
+        "hiện tại hoàn thành": 0,
+        "have been": 0,
+        "has + ": 0,
+        "gone": 1
+      }
+    },
+    {
+      "id": "u-t02",
+      "split": "test",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "question": "Câu bị động ở thì quá khứ đơn có công thức như thế nào?",
+      "absence_reason": "Không có bài về câu bị động.",
+      "absence_check": {
+        "bị động": 0,
+        "passive": 0
+      }
+    }
+  ],
+  "approved_by_student": "2026-11-16: học viên đã đọc và duyệt 10 câu mới (5 test + 5 thiếu evidence) trước khi chạy test."
+}

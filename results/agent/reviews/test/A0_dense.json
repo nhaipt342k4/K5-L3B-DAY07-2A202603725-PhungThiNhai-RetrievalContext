@@ -1,0 +1,65 @@
+[
+  {
+    "query_id": "t7-01",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "t7-02",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "t7-03",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "t7-04",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "rubric: từ chối câu có đáp án",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "t7-05",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "u-t01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "rubric: từ chối, không khẳng định nội dung ngoài tài liệu",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  },
+  {
+    "query_id": "u-t02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "rubric: từ chối, không khẳng định nội dung ngoài tài liệu",
+    "reviewer_override": "Ca biên: model sinh công thức bị động (kiến thức ngoài) và cite p23:c00 KHÔNG có trong context; hậu kiểm citation chặn và trả 'Không đủ bằng chứng'. Câu trả lời cuối là từ chối, không có khẳng định tới người dùng → tính đúng, ghi chú là nhờ guard. Học viên đã xác nhận 2026-11-16.",
+    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+  }
+]

@@ -1,0 +1,320 @@
+[
+  {
+    "query_id": "t7-01",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Viết 'She will goes' có đúng không? Sau will động từ chia thế nào?",
+    "query_sent": "Viết 'She will goes' có đúng không? Sau will động từ chia thế nào?",
+    "filter": null,
+    "method": "dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 25,
+        "evidence": "She will goes. → She will go."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 27,
+        "evidence": "She will goes. → She will go."
+      }
+    ],
+    "expected_answer": "Không đúng; sau will dùng động từ nguyên mẫu: She will go.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p25:c02",
+        "page": 25,
+        "score": 0.886565,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Tuần 3 | Ngày 19 | Bài học | WILL] LUYỆN TẬP - 8 CÂU Lưu ý: Làm xong 6 câu tự luyện, hãy tra Đáp án & giải thích ở trang 40. Không xem đáp án trước khi làm. A. LÀM CÓ HƯỚNG DẪN - 2 CÂU 1. Chọn đúng: I think it ___ rain. A. will B. is Đáp án: A. will Vì sao? Will dùng cho dự đoán; sau will là động từ nguyên mẫu. 2. Sửa lỗi: She will goes to school. Đáp án: She will go to school. Vì sao? Không thêm -s sau will. B. TỰ LUYỆN - 6 CÂU 1. I think it ___ be sunny tomorrow. A. will B. is 2. Don't worry. I ___ carry the box for you. 3. Chọn đúng: She will goes/go with us. 4. Sửa lỗi: They didn't went to school yesterday. 5. Viết một dự đoán về ngày mai. 6. Tự viết thêm 1 câu dùng đúng công thức và ít nhất 1 từ trong bảng từ vựng. BÀI LÀM / GHI NHÁP"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p41:c06",
+        "page": 41,
+        "score": 0.873545,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Ngày 19 | Đáp án] NGÀY 19 1A. 2 will/'ll. 3 go. 4 They didn't go to school yesterday. 5 Câu mẫu: I think it will be cloudy tomorrow. 6. Câu mẫu: I think it will rain tomorrow. Đáp án khác vẫn đúng nếu đúng cấu trúc, dùng từ phù hợp và hợp nghĩa. Giải thích trọng tâm: Đối chiếu công thức S + will/won't + base verb. Will phù hợp với dự đoán, lời hứa hoặc quyết định tại thời điểm nói; sau will luôn là động từ nguyên mẫu. Với câu tự viết, đáp án khác vẫn đúng nếu đúng cấu trúc và hợp nghĩa."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p27:c01",
+        "page": 27,
+        "score": 0.873198,
+        "hit": true,
+        "stage_ranks": null,
+        "text": "[Tuần 3 | Ngày 21 | Ôn tập] 4Tương lai will hoặc be going to. Công thức: S + will/won't + base verb Ví dụ: I think it will rain tomorrow. Lỗi cần tránh: She will goes. → She will go. Sau will, dùng động từ nguyên mẫu. Học lại: Ngày 19-20 Checklist trước khi làm bài □ Mảng 1: Trạng thái quá khứ Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 2: Hành động quá khứ Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 3: Hỏi - phủ định Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng. □ Mảng 4: Tương lai Tự nói lại quy tắc bằng lời của em, sau đó đặt một câu mới. Nếu chưa làm được, xem lại ngày học tương ứng."
+      }
+    ],
+    "first_hit_rank@10": 3,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p25:c02",
+      "datio-grammar-30d:p41:c06",
+      "datio-grammar-30d:p41:c07",
+      "datio-grammar-30d:p27:c01",
+      "datio-grammar-30d:p27:c02"
+    ],
+    "context_chars": 3614,
+    "context_hit": true,
+    "latency_ms": 24.7
+  },
+  {
+    "query_id": "t7-02",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Muốn nói anh ấy lái xe một cách cẩn thận thì dùng careful hay carefully?",
+    "query_sent": "Muốn nói anh ấy lái xe một cách cẩn thận thì dùng careful hay carefully?",
+    "filter": null,
+    "method": "dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 31,
+        "evidence": "He drives careful. → He drives carefully."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 35,
+        "evidence": "He drives careful. → He drives carefully."
+      }
+    ],
+    "expected_answer": "Dùng trạng từ carefully vì nó bổ nghĩa cho hành động lái xe: He drives carefully.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p31:c01",
+        "page": 31,
+        "score": 0.891714,
+        "hit": true,
+        "stage_ranks": null,
+        "text": "[Tuần 4 | Ngày 24 | Bài học | TÍNH TỪ VÀ TRẠNG TỪ] VÍ DỤ She is a careful student. Cô ấy là một học sinh cẩn thận. She writes carefully. Cô ấy viết cẩn thận. 5 TỪ VỰNG careful /ˈkeə.fəl/ careful student cẩn thận carefully/ˈkeə.fəl.i/write carefully một cách cẩn thận quiet /ˈkwaɪ.ət/ quiet room yên tĩnh quietly /ˈkwaɪ.ət.li/speak quietly một cách yên lặng fast /fɑːst/ run fast nhanh PHÁT ÂM: careful nhấn âm đầu; carefully vẫn giữ trọng âm ở âm đầu. HIỂU SÂU HƠN: Tính từ miêu tả danh từ hoặc đứng sau to be; trạng từ thường miêu tả cách một hành động diễn ra. LỖI DỄ MẮC He drives careful. → He drives carefully. Trạng từ bổ nghĩa cho hành động drives. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc:"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p31:c02",
+        "page": 31,
+        "score": 0.877986,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Tuần 4 | Ngày 24 | Bài học | TÍNH TỪ VÀ TRẠNG TỪ] TỰ CHẤM CUỐI NGÀY □ Tôi nói được quy tắc bằng lời của mình. □ Tôi làm đúng ít nhất 6/8 câu. □ Tôi đọc to hai câu ví dụ. □ Tôi biết mình cần học lại phần nào. LUYỆN TẬP - 8 CÂU Lưu ý: Làm xong 6 câu tự luyện, hãy tra Đáp án & giải thích ở trang 41. Không xem đáp án trước khi làm. A. LÀM CÓ HƯỚNG DẪN - 2 CÂU 1. Chọn đúng: a ___ student. A. careful B. carefully Đáp án: A. careful Vì sao? Tính từ careful đứng trước và miêu tả danh từ student. 2. Chọn đúng: He drives ___. A. careful B. carefully Đáp án: B. carefully Vì sao? Trạng từ carefully bổ nghĩa cho động từ drives."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p31:c03",
+        "page": 31,
+        "score": 0.867216,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Tuần 4 | Ngày 24 | Bài học | TÍNH TỪ VÀ TRẠNG TỪ] B. TỰ LUYỆN - 6 CÂU 1. She is a ___ student. A. careful B. carefully 2. He speaks English ___. A. clear B. clearly 3. Chọn đúng: The room is quiet/quietly. 4. Sửa lỗi: He drives careful. 5. Viết một câu có tính từ và một câu có trạng từ. 6. Tự viết thêm 1 câu dùng đúng công thức và ít nhất 1 từ trong bảng từ vựng. BÀI LÀM / GHI NHÁP"
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p31:c01",
+      "datio-grammar-30d:p31:c02",
+      "datio-grammar-30d:p31:c03"
+    ],
+    "context_chars": 1986,
+    "context_hit": true,
+    "latency_ms": 23.0
+  },
+  {
+    "query_id": "t7-03",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Cứ thấy chữ 'today' trong câu là phải dùng hiện tại tiếp diễn đúng không?",
+    "query_sent": "Cứ thấy chữ 'today' trong câu là phải dùng hiện tại tiếp diễn đúng không?",
+    "filter": null,
+    "method": "dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 18,
+        "evidence": "today: Xét ý nghĩa: tình huống tạm thời quanh hiện tại"
+      }
+    ],
+    "expected_answer": "Không nhất thiết; với today phải xét ý nghĩa: dùng tiếp diễn khi đó là tình huống tạm thời quanh hiện tại; không chọn thì chỉ dựa vào một từ.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p18:c00",
+        "page": 18,
+        "score": 0.869243,
+        "hit": true,
+        "stage_ranks": null,
+        "text": "[Tuần 2 | Ngày 13 | Bài học | HIỆN TẠI ĐƠN HAY TIẾP DIỄN?] TUẦN 2 • NÓI VỀ HIỆN TẠI HIỆN TẠI ĐƠN HAY TIẾP DIỄN? 25 PHÚT / NGÀY NGÀY 13 • TUẦN 2 HIỆN TẠI ĐƠN HAY TIẾP DIỄN? Mục tiêu: Chọn đúng thì dựa trên thói quen hoặc hành động đang diễn ra. Ôn nhanh: Điền dạng đúng: Look! The students ___ (run). HIỂU BẢN CHẤT Hiện tại đơn nhìn hành động như thói quen hoặc sự thật; hiện tại tiếp diễn nhìn hành động như việc đang xảy ra hoặc tạm thời. DÙNG / KHÔNG DÙNG Dùng hiện tại đơn: Điều thường xuyên hoặc ổn định Dùng hiện tại tiếp diễn: Điều đang xảy ra hoặc tạm thời So sánh: He plays football on Sundays. | He is playing football now. CÔNG THỨC Habit/fact → present simple; around now → present continuous QUY TẮC •every day/usually/often: Hiện tại đơn •now/right now/at the moment: Hiện tại tiếp diễn •today: Xét ý nghĩa: tình huống tạm thời quanh hiện tại"
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p18:c01",
+        "page": 18,
+        "score": 0.867444,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Tuần 2 | Ngày 13 | Bài học | HIỆN TẠI ĐƠN HAY TIẾP DIỄN?] VÍ DỤ I walk to school every day. Tôi đi bộ đến trường mỗi ngày. Today, I am taking the bus. Hôm nay tôi đi xe buýt. 5 TỪ VỰNG every day /ˈev.ri deɪ/ study every day mỗi ngày right now /raɪt naʊ/ work right now ngay lúc này at the moment /ət ðə ˈməʊ.mənt/busy at the moment vào lúc này today /təˈdeɪ/ study today hôm nay normally/ˈnɔː.mə.li/ normally walk thông thường PHÁT ÂM: Nhấn từ tương phản: I USUALLY walk, but TODAY I'm taking the bus. HIỂU SÂU HƠN: Đừng chọn thì chỉ vì thấy một từ đơn lẻ. Hãy xác định toàn bộ ngữ cảnh đang nói thói quen hay hành động quanh hiện tại. LỖI DỄ MẮC Không chọn thì chỉ bằng một từ; phải xác định câu nói thói quen hay hành động quanh hiện tại. VIẾT LẠI CÂU ĐÚNG 1 LỖI CỦA TÔI Tôi đã viết: Câu đúng: Quy tắc:"
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p17:c00",
+        "page": 17,
+        "score": 0.861523,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Tuần 2 | Ngày 12 | Bài học | HIỆN TẠI TIẾP DIỄN] TUẦN 2 • NÓI VỀ HIỆN TẠI HIỆN TẠI TIẾP DIỄN 25 PHÚT / NGÀY NGÀY 12 • TUẦN 2 HIỆN TẠI TIẾP DIỄN Mục tiêu: Miêu tả hành động đang xảy ra. Ôn nhanh: Đặt usually đúng vị trí: My brother is tired after school. HIỂU BẢN CHẤT Hiện tại tiếp diễn diễn tả hành động đang trong quá trình xảy ra. Cấu trúc bắt buộc có to be và động từ mang - ing. DÙNG / KHÔNG DÙNG Dùng: Hành động đang xảy ra hoặc tình huống tạm thời quanh hiện tại Không dùng: Thói quen lặp lại đều đặn So sánh: She is reading now. | She reading now. CÔNG THỨC S + am/is/are + V-ing QUY TẮC •Trợ động từ: Phải có am/is/are •Động từ chính: Thêm -ing •Dấu hiệu ý nghĩa: Hành động đang diễn ra quanh lúc nói VÍ DỤ I am doing my homework now. Tôi đang làm bài tập. They are playing in the yard. Họ đang chơi trong sân."
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p18:c00",
+      "datio-grammar-30d:p18:c01",
+      "datio-grammar-30d:p18:c02",
+      "datio-grammar-30d:p17:c00",
+      "datio-grammar-30d:p17:c01"
+    ],
+    "context_chars": 4267,
+    "context_hit": true,
+    "latency_ms": 22.5
+  },
+  {
+    "query_id": "t7-04",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Đáp án câu 5 của Mini Test tuần 4 là gì?",
+    "query_sent": "Đáp án câu 5 của Mini Test tuần 4 là gì?",
+    "filter": {
+      "page_type": "answer_key"
+    },
+    "method": "dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 43,
+        "evidence": "NGÀY 28 1B. 2B. 3A. 4A. 5B."
+      }
+    ],
+    "expected_answer": "B (correctly): He answered the question correctly.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p43:c00",
+        "page": 43,
+        "score": 0.904672,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Ngày 28-30 | Đáp án] ĐÁP ÁN Đáp án & giải thích ngày 28-30 TRANG TRA CỨU Chỉ mở trang này sau khi đã tự làm. Với câu viết mở, đáp án là câu mẫu - câu khác vẫn đúng nếu đúng cấu trúc và nghĩa. Trang này gồm: đáp án Mini Test tuần 4 đủ 20 câu. ĐÁP ÁN MINI TEST TUẦN 4 - 20 CÂU NGÀY 28 Câu 1-12 là phần đề gốc; câu 13-20 là phần luyện bổ sung. Tất cả 20 đáp án nằm ngay trong khối này."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p42:c00",
+        "page": 42,
+        "score": 0.89195,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Ngày 21-27 | Đáp án] ĐÁP ÁN Đáp án & giải thích ngày 21-27 TRANG TRA CỨU Chỉ mở trang này sau khi đã tự làm. Với câu viết mở, đáp án là câu mẫu - câu khác vẫn đúng nếu đúng cấu trúc và nghĩa. Trang này gồm: đáp án đủ 6 câu của ngày 22-27 và đáp án Mini Test tuần 3 đủ 20 câu. ĐÁP ÁN MINI TEST TUẦN 3 - 20 CÂU NGÀY 21 Câu 1-12 là phần đề gốc; câu 13-20 là phần luyện bổ sung. Tất cả 20 đáp án nằm ngay trong khối này."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p41:c00",
+        "page": 41,
+        "score": 0.890874,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Ngày 14-20 | Đáp án] ĐÁP ÁN Đáp án & giải thích ngày 14-20 TRANG TRA CỨU Chỉ mở trang này sau khi đã tự làm. Với câu viết mở, đáp án là câu mẫu - câu khác vẫn đúng nếu đúng cấu trúc và nghĩa. Trang này gồm: đáp án đủ 6 câu của ngày 15-20 và đáp án Mini Test tuần 2 đủ 20 câu. ĐÁP ÁN MINI TEST TUẦN 2 - 20 CÂU NGÀY 14 Câu 1-12 là phần đề gốc; câu 13-20 là phần luyện bổ sung. Tất cả 20 đáp án nằm ngay trong khối này."
+      }
+    ],
+    "first_hit_rank@10": null,
+    "hit1": false,
+    "hit3": false,
+    "context_ids": [
+      "datio-grammar-30d:p43:c00",
+      "datio-grammar-30d:p43:c01",
+      "datio-grammar-30d:p42:c00",
+      "datio-grammar-30d:p42:c01",
+      "datio-grammar-30d:p41:c00",
+      "datio-grammar-30d:p41:c01"
+    ],
+    "context_chars": 3337,
+    "context_hit": true,
+    "latency_ms": 22.2
+  },
+  {
+    "query_id": "t7-05",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Ở phần tự chấm tuần 4, nếu sai câu 4-7 thì phải học lại ngày nào?",
+    "query_sent": "Ở phần tự chấm tuần 4, nếu sai câu 4-7 thì phải học lại ngày nào?",
+    "filter": {
+      "week": 4
+    },
+    "method": "dense",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 35,
+        "evidence": "sai 4-7 → Ngày 24-25"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 36,
+        "evidence": "sai 4-7 → Ngày 24-25"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 43,
+        "evidence": "sai 4-7 → Ngày 24-25"
+      }
+    ],
+    "expected_answer": "Ngày 24-25.",
+    "top3": [
+      {
+        "rank": 1,
+        "id": "datio-grammar-30d:p35:c02",
+        "page": 35,
+        "score": 0.911963,
+        "hit": true,
+        "stage_ranks": null,
+        "text": "[Tuần 4 | Ngày 28 | Ôn tập] Tự chấm & học lại 17-20 đúng Nền tuần này đã chắc. 13-16 đúng Sửa câu sai và làm lại. 0-12 đúng Học lại trước khi tiếp tục. HỌC LẠI: Sai 1-3 → Ngày 22-23; sai 4-7 → Ngày 24-25; sai 8-11 → Ngày 26-27. Câu 13-14: Ngày 22-23; câu 15-16: Ngày 24-25; câu 17-20: Ngày 26-27. 17-20 đúng: tiếp tục. 13-16 đúng: sửa từng câu sai rồi làm lại sau một ngày. 0-12 đúng: học lại nhóm ngày được chỉ ra."
+      },
+      {
+        "rank": 2,
+        "id": "datio-grammar-30d:p36:c00",
+        "page": 36,
+        "score": 0.897083,
+        "hit": true,
+        "stage_ranks": null,
+        "text": "[Tuần 4 | Ngày 28 | Mini Test] ÔN TẬP • NGÀY 28 / 30 Mini Test tuần 4 - 20 câu 25 PHÚT Tự chấm & học lại 17-20 đúng Nền tuần này đã chắc. 13-16 đúng Sửa câu sai và làm lại. 0-12 đúng Học lại trước khi tiếp tục. HỌC LẠI: Sai 1-3 → Ngày 22-23; sai 4-7 → Ngày 24-25; sai 8-11 → Ngày 26-27. Câu 13-14: Ngày 22-23; câu 15-16: Ngày 24-25; câu 17-20: Ngày 26-27."
+      },
+      {
+        "rank": 3,
+        "id": "datio-grammar-30d:p34:c02",
+        "page": 34,
+        "score": 0.877265,
+        "hit": false,
+        "stage_ranks": null,
+        "text": "[Tuần 4 | Ngày 27 | Bài học | AND, BUT, BECAUSE VÀ SO] TỰ CHẤM CUỐI NGÀY □ Tôi nói được quy tắc bằng lời của mình. □ Tôi làm đúng ít nhất 6/8 câu. □ Tôi đọc to hai câu ví dụ. □ Tôi biết mình cần học lại phần nào. LUYỆN TẬP - 8 CÂU Lưu ý: Làm xong 6 câu tự luyện, hãy tra Đáp án & giải thích ở trang 41. Không xem đáp án trước khi làm. A. LÀM CÓ HƯỚNG DẪN - 2 CÂU 1. Nối câu: I stayed home. I was tired. Đáp án: I stayed home because I was tired. Vì sao? Because giới thiệu nguyên nhân. 2. Nối câu: I was tired. I went to bed early. Đáp án: I was tired, so I went to bed early. Vì sao? So giới thiệu kết quả; không dùng because và so cùng lúc."
+      }
+    ],
+    "first_hit_rank@10": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "datio-grammar-30d:p35:c02",
+      "datio-grammar-30d:p36:c00",
+      "datio-grammar-30d:p36:c01",
+      "datio-grammar-30d:p34:c02",
+      "datio-grammar-30d:p34:c03"
+    ],
+    "context_chars": 3123,
+    "context_hit": true,
+    "latency_ms": 23.3
+  }
+]

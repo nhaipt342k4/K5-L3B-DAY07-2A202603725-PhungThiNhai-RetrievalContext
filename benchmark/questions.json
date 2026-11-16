@@ -1,0 +1,389 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Động từ tận cùng bằng s, sh, ch, x, o thì thêm gì khi đi với he/she/it ở hiện tại đơn?",
+    "expected_answer": "Thêm -es.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 14,
+        "evidence": "Tận cùng s, sh, ch, x, o: thêm -es"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tại sao nói 'an university' là sai?",
+    "expected_answer": "Vì university bắt đầu bằng âm /j/ là âm phụ âm nên phải dùng a: a university.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 8,
+        "evidence": "an university → a university vì âm đầu là /j/, một âm phụ âm."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 11,
+        "evidence": "an university → a university vì âm đầu là /j/, một âm phụ âm."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Nếu câu đã có am/is/are làm động từ chính thì khi đặt câu hỏi có cần thêm do/does không?",
+    "expected_answer": "Không. Chính to be được đưa lên trước chủ ngữ; không cần do/does.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 7,
+        "evidence": "Nếu câu đã có am/is/are làm động từ chính, chính to be sẽ di chuyển khi đặt câu hỏi; không cần do/does."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 39,
+        "evidence": "Nếu câu đã có am/is/are làm động từ chính, chính to be sẽ di chuyển khi đặt câu hỏi; không cần do/does."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trạng từ chỉ tần suất đứng ở vị trí nào trong câu?",
+    "expected_answer": "Đứng trước động từ thường nhưng đứng sau to be.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 16,
+        "evidence": "Trạng từ tần suất đứng trước động từ thường nhưng đứng sau to be."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 40,
+        "evidence": "Trạng từ tần suất đứng trước động từ thường nhưng đứng sau to be."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Muốn đếm nước hay bánh mì thì nói thế nào cho đúng?",
+    "expected_answer": "Thêm đơn vị đo/chứa: a bottle of water, two loaves of bread.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 29,
+        "evidence": "Muốn đếm danh từ không đếm được, hãy thêm đơn vị: a bottle of water, two loaves of bread."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 42,
+        "evidence": "Muốn đếm danh từ không đếm được, hãy thêm đơn vị: a bottle of water, two loaves of bread."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Quá khứ của buy là gì và có thêm -ed không?",
+    "expected_answer": "bought; buy là động từ bất quy tắc nên không thêm -ed.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 23,
+        "evidence": "Buy là động từ bất quy tắc; không thêm -ed."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Khi nói về kế hoạch đã quyết định từ trước thì dùng cấu trúc nào?",
+    "expected_answer": "Be going to (am/is/are + going to + động từ nguyên mẫu).",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 26,
+        "evidence": "Be going to nhấn mạnh kế hoạch đã có trước."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 41,
+        "evidence": "Be going to nhấn mạnh kế hoạch đã có trước."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Sau can, should, must thì động từ chia thế nào?",
+    "expected_answer": "Dùng động từ nguyên mẫu không to; modal không đổi theo chủ ngữ.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 33,
+        "evidence": "Modal không đổi theo chủ ngữ và đi với động từ nguyên mẫu không to."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 42,
+        "evidence": "Modal không đổi theo chủ ngữ và đi với động từ nguyên mẫu không to."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Có được dùng cả because và so để nối cùng một cặp nguyên nhân - kết quả không?",
+    "expected_answer": "Không; because giới thiệu nguyên nhân, so giới thiệu kết quả, chỉ dùng một trong hai.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 34,
+        "evidence": "Không dùng because và so cùng lúc để nối cùng một cặp nguyên nhân-kết quả."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Làm bài Final Check được 13-16 điểm thì có ý nghĩa gì?",
+    "expected_answer": "Đã có nền; xem lại các nhóm câu sai.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 38,
+        "evidence": "13-16 | Đã có nền; xem lại các nhóm câu sai"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Đáp án câu 6 của Mini Test tuần 2 là gì?",
+    "expected_answer": "Does he play football?",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 41,
+        "evidence": "NGÀY 14 1A. 2B. 3A. 4B. 5A. 6 Does he play football?"
+      }
+    ],
+    "filter": {
+      "page_type": "answer_key"
+    },
+    "filter_note": "Người hỏi đang tra đáp án nên ngữ cảnh cung cấp page_type=answer_key trước khi truy xuất."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Ở phần tự chấm tuần 3, nếu sai câu 9-11 thì phải học lại ngày nào?",
+    "expected_answer": "Ngày 19-20.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 27,
+        "evidence": "sai 9-11 → Ngày 19-20"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 28,
+        "evidence": "sai 9-11 → Ngày 19-20"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 42,
+        "evidence": "sai 9-11 → Ngày 19-20"
+      }
+    ],
+    "filter": {
+      "week": 3
+    },
+    "filter_note": "Câu hỏi nêu rõ tuần 3; các tuần khác có câu 'sai 9-11 → ...' với ngày khác."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Câu 15 trong Mini Test tuần 1 yêu cầu làm gì?",
+    "expected_answer": "Chọn a hay an trong: This is ___ umbrella.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 12,
+        "evidence": "15. This is ___ umbrella. A. a B. an"
+      }
+    ],
+    "filter": {
+      "week": 1,
+      "page_type": "mini_test"
+    },
+    "filter_note": "Câu hỏi nêu rõ Mini Test tuần 1."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Viết 'Did you went...?' sai ở đâu?",
+    "expected_answer": "Sau did động từ phải trở về nguyên mẫu: Did you go...?",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 24,
+        "evidence": "Did you went...? → Did you go...? Sau did, động từ trở về nguyên mẫu."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 27,
+        "evidence": "Did you went...? → Did you go...? Sau did, động từ trở về nguyên mẫu."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thì hiện tại tiếp diễn bắt buộc phải có những thành phần nào?",
+    "expected_answer": "To be đã chia (am/is/are) và động từ thêm -ing.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 17,
+        "evidence": "Hiện tại tiếp diễn luôn có hai thành phần: to be đã chia và động từ thêm ing."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 40,
+        "evidence": "Hiện tại tiếp diễn luôn có hai thành phần: to be đã chia và động từ thêm ing."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "t7-01",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Viết 'She will goes' có đúng không? Sau will động từ chia thế nào?",
+    "expected_answer": "Không đúng; sau will dùng động từ nguyên mẫu: She will go.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 25,
+        "evidence": "She will goes. → She will go."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 27,
+        "evidence": "She will goes. → She will go."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "t7-02",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Muốn nói anh ấy lái xe một cách cẩn thận thì dùng careful hay carefully?",
+    "expected_answer": "Dùng trạng từ carefully vì nó bổ nghĩa cho hành động lái xe: He drives carefully.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 31,
+        "evidence": "He drives careful. → He drives carefully."
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 35,
+        "evidence": "He drives careful. → He drives carefully."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "t7-03",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Cứ thấy chữ 'today' trong câu là phải dùng hiện tại tiếp diễn đúng không?",
+    "expected_answer": "Không nhất thiết; với today phải xét ý nghĩa: dùng tiếp diễn khi đó là tình huống tạm thời quanh hiện tại; không chọn thì chỉ dựa vào một từ.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 18,
+        "evidence": "today: Xét ý nghĩa: tình huống tạm thời quanh hiện tại"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "t7-04",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Đáp án câu 5 của Mini Test tuần 4 là gì?",
+    "expected_answer": "B (correctly): He answered the question correctly.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 43,
+        "evidence": "NGÀY 28 1B. 2B. 3A. 4A. 5B."
+      }
+    ],
+    "filter": {
+      "page_type": "answer_key"
+    },
+    "filter_note": "Người hỏi đang tra đáp án nên ngữ cảnh cung cấp page_type=answer_key trước khi truy xuất (giống q11 Day 6).",
+    "scoring_note": "Câu trả lời đủ = chữ cái B; nêu thêm 'correctly' (lấy từ trang đề p36) là điểm cộng, không bắt buộc."
+  },
+  {
+    "id": "t7-05",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Ở phần tự chấm tuần 4, nếu sai câu 4-7 thì phải học lại ngày nào?",
+    "expected_answer": "Ngày 24-25.",
+    "gold": [
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 35,
+        "evidence": "sai 4-7 → Ngày 24-25"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 36,
+        "evidence": "sai 4-7 → Ngày 24-25"
+      },
+      {
+        "source_id": "datio-grammar-30d",
+        "page": 43,
+        "evidence": "sai 4-7 → Ngày 24-25"
+      }
+    ],
+    "filter": {
+      "week": 4
+    },
+    "filter_note": "Câu hỏi nêu rõ tuần 4; các tuần khác có câu 'sai ... → Ngày ...' với ngày khác. Trang đáp án p43 không có trường week nên filter week=4 chỉ giữ p35/p36."
+  }
+]
