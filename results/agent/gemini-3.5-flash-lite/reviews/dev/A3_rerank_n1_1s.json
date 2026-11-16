@@ -6,7 +6,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q02",
@@ -16,7 +16,7 @@
       true
     ],
     "reason": "rubric: thiếu ý: a university",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q03",
@@ -26,7 +26,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q04",
@@ -35,7 +35,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q05",
@@ -46,7 +46,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q06",
@@ -55,7 +55,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q07",
@@ -64,7 +64,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q08",
@@ -73,7 +73,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q09",
@@ -82,7 +82,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q10",
@@ -91,14 +91,14 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q11",
     "answer_grade": 0,
     "citation_support": [],
     "reason": "rubric: từ chối câu có đáp án",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "q12",
@@ -107,6 +107,6 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   }
 ]

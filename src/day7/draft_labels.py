@@ -62,7 +62,7 @@ def main() -> None:
             if ov:
                 rev.update({k: v for k, v in ov.items() if k != "reason"})
                 rev["reviewer_override"] = ov["reason"]
-            rev["reviewed_by"] = "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+            rev["reviewed_by"] = "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
             reviews.append(rev)
             sheet.append(f"## {qid} · {t['status']} · grade {rev.get('answer_grade', '-')} · "
                          f"abst {rev.get('abstention_correct', '-')}\n")

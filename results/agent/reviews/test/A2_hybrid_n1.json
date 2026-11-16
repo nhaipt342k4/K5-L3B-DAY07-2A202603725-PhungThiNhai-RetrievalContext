@@ -8,7 +8,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "t7-02",
@@ -18,7 +18,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "t7-03",
@@ -28,7 +28,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "t7-04",
@@ -37,7 +37,7 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "t7-05",
@@ -47,20 +47,20 @@
       true
     ],
     "reason": "rubric: đủ ý theo rubric, có citation hỗ trợ",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "u-t01",
     "citation_support": [],
     "abstention_correct": true,
     "reason": "rubric: từ chối, không khẳng định nội dung ngoài tài liệu",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   },
   {
     "query_id": "u-t02",
     "citation_support": [],
     "abstention_correct": true,
     "reason": "rubric: từ chối, không khẳng định nội dung ngoài tài liệu",
-    "reviewed_by": "Claude (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
+    "reviewed_by": "Công cụ AI hỗ trợ (đọc toàn văn câu trả lời + chunk được cite); học viên xác nhận lại"
   }
 ]

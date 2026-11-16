@@ -1,6 +1,6 @@
 # Báo cáo Day 7 — Agentic RAG · Phùng Thị Nhài (2A202603725, L3B)
 
-> **Trạng thái:** đã chạy đủ dev (5 cấu hình) và test (baseline + cấu hình đã chọn). Code và nhãn chấm được làm với sự hỗ trợ của Claude Code. Học viên đã duyệt bộ câu hỏi Day 7 (2026-11-16). Nhãn chấm câu trả lời/citation do Claude chấm theo rubric và đọc từng câu; **học viên đã xác nhận 2 ca biên** (mục *Cách chấm*).
+> **Trạng thái:** đã chạy đủ dev (5 cấu hình) và test (baseline + cấu hình đã chọn). Bài làm có dùng công cụ AI hỗ trợ lập trình; học viên chịu trách nhiệm kiểm tra code, kết quả và nguồn. Học viên đã duyệt bộ câu hỏi Day 7 (2026-11-16). Nhãn chấm câu trả lời/citation được tạo theo rubric và đọc lại từng câu với công cụ AI hỗ trợ; **học viên đã xác nhận 2 ca biên** (mục *Cách chấm*).
 
 **Kết quả chính (test, gpt-4.1-mini):** cấu hình chọn trên dev **A2 = hybrid RRF (dense Day 6 + BM25) + giữ chunk kế tiếp, 4500 ký tự** đạt grounded answer **2,00/2 (5/5 điểm 2)**, Context Evidence **5/5**, từ chối đúng **2/2**, không từ chối nhầm; baseline dense **1,60/2**, Context Evidence 4/5, từ chối nhầm 1/5 (t7-04).
 
@@ -111,7 +111,7 @@ Tiêu chí chọn ghi trước khi chạy agent: [results/selection_criteria.jso
 
 Đường dẫn: trace `results/agent/<split>/<cấu hình>.jsonl` (mỗi dòng: tool call, query, filter, kết quả kèm rank/score, chunk được thêm/bỏ do ngân sách, context cuối, câu trả lời gốc, citation, số lượt LLM, token, thời gian, lý do dừng); nhãn `results/agent/reviews/<split>/<cấu hình>.json` + bản đọc `.md`; tổng hợp `results/agent/summary_<split>.json`.
 
-- **Cách chấm:** nhãn nháp tạo bằng rubric cố định cho từng câu ([benchmark/grading_rubric.json](../../benchmark/grading_rubric.json): ý bắt buộc trong câu trả lời + câu phải có trong **toàn văn chunk được cite** thì citation mới tính là hỗ trợ). Sau đó Claude đọc từng câu trả lời và chunk được cite trong `results/agent/reviews/<split>/<cấu hình>.md`, ghi đè khi rubric sai (`results/agent/reviews/overrides.json`, có lý do). **Trạng thái:** học viên đã xác nhận 2 ca biên (dev q10 ở A1/A3/A4 = 1 điểm; test u-t02 ở A0 = từ chối đúng nhờ hậu kiểm citation). Rubric đã được sửa 2 lần sau khi đọc: q08 (chunk `p33:c02` "Sau modal can dùng động từ nguyên mẫu" có hỗ trợ nhưng mẫu cũ quá hẹp), q06 (chunk đề Final Check có "A. buyed B. bought" khớp chữ "bought" nhưng không phải đáp án → không tính hỗ trợ). Số liệu tổng hợp bằng `starter/agent_metrics.py` của đề.
+- **Cách chấm:** nhãn nháp tạo bằng rubric cố định cho từng câu ([benchmark/grading_rubric.json](../../benchmark/grading_rubric.json): ý bắt buộc trong câu trả lời + câu phải có trong **toàn văn chunk được cite** thì citation mới tính là hỗ trợ). Sau đó đọc lại từng câu trả lời (có công cụ AI hỗ trợ) và chunk được cite trong `results/agent/reviews/<split>/<cấu hình>.md`, ghi đè khi rubric sai (`results/agent/reviews/overrides.json`, có lý do). **Trạng thái:** học viên đã xác nhận 2 ca biên (dev q10 ở A1/A3/A4 = 1 điểm; test u-t02 ở A0 = từ chối đúng nhờ hậu kiểm citation). Rubric đã được sửa 2 lần sau khi đọc: q08 (chunk `p33:c02` "Sau modal can dùng động từ nguyên mẫu" có hỗ trợ nhưng mẫu cũ quá hẹp), q06 (chunk đề Final Check có "A. buyed B. bought" khớp chữ "bought" nhưng không phải đáp án → không tính hỗ trợ). Số liệu tổng hợp bằng `starter/agent_metrics.py` của đề.
 
 ## Lỗi hệ thống và chi phí (báo riêng, không tính vào chất lượng)
 
